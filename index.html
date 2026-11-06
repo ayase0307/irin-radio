@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ja">
+<html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ものラジオ</title>
+<title>艾琳電台 · IRIN RADIO</title>
 <link rel="icon" id="favicon" href="data:,">
 <script>if (/[?&]embed\b/.test(location.search)) document.documentElement.classList.add("embed")</script>
 <style>
@@ -435,7 +435,7 @@ html.phone #share span{display:none}
       <div class="onair"><i></i>ON AIR</div>
       <nav id="toc" aria-label="目次"></nav>
       <div id="panel"></div>
-      <a id="card" target="_blank" rel="noopener noreferrer"><img alt="" referrerpolicy="no-referrer"><div class="txt"><div class="site"></div><div class="ttl"></div><div class="desc"></div><div class="open" id="cardOpen">記事をひらく ↗</div></div></a>
+      <a id="card" target="_blank" rel="noopener noreferrer"><img alt="" referrerpolicy="no-referrer"><div class="txt"><div class="site"></div><div class="ttl"></div><div class="desc"></div><div class="open" id="cardOpen">開啟原文 ↗</div></div></a>
       <div id="wx" hidden><div class="body"></div><div id="wxlist" role="listbox"></div></div>
       <div id="cam">
         <img id="idle" alt="">
@@ -449,7 +449,7 @@ html.phone #share span{display:none}
       <div id="cap"><span></span></div>
       <div id="bar"><b></b></div>
     </div>
-    <button id="mutedBadge" aria-label="音声をオンにする"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M16.6 8.4 15.2 9.8 17.4 12l-2.2 2.2 1.4 1.4 2.2-2.2 2.2 2.2 1.4-1.4-2.2-2.2 2.2-2.2-1.4-1.4-2.2 2.2z"/></svg><span id="mutedTxt">音声オフ・クリックでオン</span></button>
+    <button id="mutedBadge" aria-label="音声をオンにする"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M16.6 8.4 15.2 9.8 17.4 12l-2.2 2.2 1.4 1.4 2.2-2.2 2.2 2.2 1.4-1.4-2.2-2.2 2.2-2.2-1.4-1.4-2.2 2.2z"/></svg><span id="mutedTxt">目前靜音 · 點一下開啟</span></button>
     <div id="cover"><button class="play" aria-label="再生"><svg viewBox="0 0 10 12"><path d="M0 0v12l10-6z"/></svg></button><div class="resume" id="resume" hidden><span></span><button id="from0"></button></div></div>
     <div id="tip" role="status"></div>
     <div id="flash" aria-hidden="true"><svg viewBox="0 0 10 12"></svg></div>
@@ -470,10 +470,10 @@ html.phone #share span{display:none}
   <div class="chan"><span class="av"><i class="logo"></i><b id="avch"></b></span><div class="nm"><b id="cname"></b><small id="ctag"></small></div>
   </div>
   <div id="now"></div>
-  <details id="talkBox" hidden><summary id="talkSum">コメント</summary><p class="talkNote" id="talkNote"></p><div id="talk"></div></details>
+  <details id="talkBox" hidden><summary id="talkSum">留言</summary><p class="talkNote" id="talkNote"></p><div id="talk"></div></details>
   <div class="links" id="links"></div>
-  <details id="scriptBox"><summary id="scriptSum">台本を読む</summary><div class="source" id="scriptText"></div></details>
-  <h1 id="pastH">これまでの放送</h1>
+  <details id="scriptBox"><summary id="scriptSum">逐字稿</summary><div class="source" id="scriptText"></div></details>
+  <h1 id="pastH">過往節目</h1>
   <div class="eps" id="eps"></div>
   <footer><span id="credits"></span> ／ <a href="https://github.com/monoradio102/myradio">myradio</a></footer>
 </main>
@@ -487,20 +487,24 @@ const WEEK = "日月火水木金土";
 // says per date which exist ({date, ja: {title, seconds}, en: {...}}). The older one-language list ({date, title,
 // seconds} with episodes/<date>.json) still works. The words of the page itself are below.
 const UI = {
-  ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "記事をひらく ↗",
+  ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "開啟原文 ↗",
         notFound: c => `リンク先が見つかりませんでした（${c}）`, source: "出典", script: "台本を読む", past: "これまでの放送", talk: "コメント", talkNote: "書きこむには GitHub のアカウントが要ります。コメントは GitHub Discussions に保存され、ここは giscus.app から読みこんでいます。",
         expired: "この回の音声は公開が終わりました（台本は下で読めます）", loading: "読み込み中…", empty: "まだ放送がありません",
-        muted: "音声オフ・クリックでオン", sep: "・", colon: "：" },
+        muted: "目前靜音 · 點一下開啟", sep: "・", colon: "：" },
   en: { share: "Share", copied: "Copied", resumeAt: t => `Resume from ${t}`, from0: "Start over", heard: "Heard", partway: t => `Stopped at ${t}`, rate: "Playback speed", wxHere: "Your area", wxCredit: "Weather: Open-Meteo (CC BY 4.0)", wxNoGeo: "Location not available", wxPrompt: "Choose a place (top right) to see its weather", wxChoose: "Choose", wxUseHere: "Use my location", wxJapan: "Japan", wxWorld: "World", wxHi: "H", wxLo: "L", wxRain: "Rain", copyHint: "Click to copy", native: "Share…", copyLink: "Copy link", copyEmbed: "Copy embed code", openPage: "Open the page", news: "News", none: "No details", jump: "Go to this story", bye: "See you tomorrow!", related: "Related", open: "Open article ↗",
         notFound: c => `Link not found (${c})`, source: "Source", script: "Read the script", past: "Past episodes", talk: "Comments", talkNote: "You need a GitHub account to comment. Comments are kept in GitHub Discussions, and this part loads from giscus.app.",
         expired: "This episode's audio is no longer available (the script is below)", loading: "Loading…", empty: "No episodes yet",
         muted: "Sound off · click to turn on", sep: " · ", colon: ": " },
+  zh: { share: "分享", copied: "已複製", resumeAt: t => `從 ${t} 繼續播放`, from0: "從頭播放", heard: "聽過", partway: t => `停在 ${t}`, rate: "播放速度", wxHere: "目前位置", wxCredit: "天氣：Open-Meteo（CC BY 4.0）", wxNoGeo: "無法取得定位", wxPrompt: "從右上角選地點就會顯示天氣", wxChoose: "選擇地點", wxUseHere: "使用我的位置", wxJapan: "日本", wxWorld: "世界", wxHi: "高", wxLo: "低", wxRain: "降雨", copyHint: "點一下複製", native: "分享…", copyLink: "複製連結", copyEmbed: "複製嵌入碼", openPage: "開啟頁面", news: "新聞", none: "沒有補充", jump: "跳到這段", bye: "明天見！", related: "相關文章", open: "開啟原文 ↗",
+        notFound: c => `找不到連結（${c}）`, source: "來源", script: "逐字稿", past: "過往節目", talk: "留言", talkNote: "留言需要 GitHub 帳號；留言存在 GitHub Discussions，這裡由 giscus.app 載入。",
+        expired: "這集的音檔已下架（逐字稿還在下面）", loading: "載入中…", empty: "還沒有節目",
+        muted: "目前靜音 · 點一下開啟", sep: "・", colon: "：" },
 };
 let LANG = "ja";
 const tr = k => (UI[LANG] || UI.en)[k];
-const NAMES = { ja: "日本語", en: "English" };
+const NAMES = { ja: "日本語", en: "English", zh: "中文" };
 const dateFmt = d => LANG === "ja" || !UI[LANG] ? dateJp(d)
-  : new Date(d + "T00:00:00").toLocaleDateString(LANG, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+  : new Date(d + "T00:00:00").toLocaleDateString(LANG === "zh" ? "zh-TW" : LANG, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
 const langsOf = e => e ? Object.keys(e).filter(k => k !== "date" && e[k]?.title) : [];   // [] for the older list
 const info = e => e?.[LANG] || e?.[langsOf(e)[0]] || e;   // {title, seconds} of an entry in the current language
 const dateJp = d => { const t = new Date(d + "T00:00:00"); return `${t.getFullYear()}年${t.getMonth() + 1}月${t.getDate()}日（${WEEK[t.getDay()]}）`; };

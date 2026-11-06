@@ -1,0 +1,61 @@
+{
+  "title": "資安變成配額：GPT-6 Cyber 與 Kimi K3.1 的分岔路",
+  "opening": [
+    {"say": "艾琳電台，十一月六日星期五，早安，守富。", "show": "艾琳電台 · 11月6日 星期五 · 早安，守富。"},
+    {"say": "今天 AI 圈的主線只有一個字：資安。九十秒，講三件事。", "show": "今天的主線只有一個字：資安。九十秒講三件事。"}
+  ],
+  "news": [
+    {
+      "label": "GPT-6 Cyber：變強，也變乖",
+      "points": ["漏洞利用測試 32.1% → 48.5%", "沒有指令時 99.93% 不打範圍外目標", "同日 Kimi K3.1 Pro 開源權重"],
+      "lines": [
+        {"say": "第一件，OpenAI 發布專門做資安研究的 GPT-6 Cyber。", "show": "OpenAI 發布 GPT-6 Cyber，專門做資安研究。"},
+        {"say": "在能不能真的利用漏洞的測試裡，它從三成二進步到四成八；更關鍵的是它變乖了，沒有下指令時，九成九九以上的情況不會去打不該打的目標。", "show": "漏洞利用測試 32.1% → 48.5%；沒有部署提示時，99.93% 不會攻擊範圍外目標。"},
+        {"say": "同一天，Moonshot 把 Kimi K三點一 Pro 的權重放上 Hugging Face，卻明講他們刻意不訓練攻擊性的資安資料。", "show": "同日 Moonshot 開源 Kimi K3.1 Pro 權重，並刻意不訓練攻擊性資安資料。"}
+      ],
+      "url": "https://latent.space/p/ainews-it-s-swapping-season",
+      "link": {
+        "url": "https://latent.space/p/ainews-it-s-swapping-season",
+        "title": "It's Swapping Season — Latent Space",
+        "site": "Latent Space",
+        "description": "OpenAI's Linux kernel security work, Kimi K3.1 Pro's open weights, and Ricursive's Ripple-65B.",
+        "image": "https://latent.space/og/card/post/ainews-it-s-swapping-season/efe7d0a1e2a39ea0481b4a1bba789d599c143dede92092e1dacb89175201e4c4.png"
+      }
+    },
+    {
+      "label": "開源的第三條路",
+      "points": ["不是全開，也不是不開", "把雙用途最危險的一段切掉", "防守方自架最實用"],
+      "lines": [
+        {"say": "這代表開源模型出現了第三條路：不是全開，也不是不開，而是把雙用途裡最危險的那一段切掉。", "show": "第三條路：開源，但切掉雙用途最危險的那一段。"},
+        {"say": "對防守方是好消息，企業可以自己架來掃漏洞；代價是社群會一直吵，這到底算不算真的開源。", "show": "防守方可用於自架漏洞掃描；代價是「算不算真開源」的爭論。"}
+      ],
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "link": {
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "title": "Introducing GPT-6 Cyber",
+        "site": "OpenAI",
+        "description": "A model built for security research, measured on real exploit capability and out-of-scope restraint."
+      }
+    },
+    {
+      "label": "948 個漏洞，與一則論文",
+      "points": ["自主管線單次找出 948 個核心提權漏洞", "API 成本約 120 萬美元", "HF 最高票：串流影片 RL 改回合級獎勵"],
+      "lines": [
+        {"say": "第二件，OpenAI 說他們的自主管線，一次跑出九百四十八個 Linux 核心的本機提權漏洞，API 成本大約一百二十萬美元。", "show": "自主管線單次找出 948 個 Linux 核心提權漏洞，API 成本約 120 萬美元。"},
+        {"say": "第三件給做研究的人：Hugging Face 當日票數最高的論文，把串流影片生成的獎勵，從整段給一個分，改成用回合來給。", "show": "HF Papers 當日最高票：串流影片生成改用回合級獎勵（Turns Matter）。"}
+      ],
+      "url": "https://huggingface.co/papers/2611.06728",
+      "link": {
+        "url": "https://huggingface.co/papers/2611.06728",
+        "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+        "site": "Hugging Face Papers",
+        "description": "當日社群票數最高的論文：把串流影片生成的獎勵，從整段改成以回合為單位。",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06728/gradient.png"
+      }
+    }
+  ],
+  "closing": [
+    {"say": "今天就這樣。資安從能力問題，變成配額問題，這條線我會繼續追。", "show": "資安從能力問題，變成配額問題——這條線我會繼續追。"},
+    {"say": "我是艾琳，明天早上見。", "show": "我是艾琳，明天早上見。"}
+  ]
+}

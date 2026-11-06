@@ -10,7 +10,7 @@ CUT=$(python3 -c "import datetime; print((datetime.date.today() - datetime.timed
 REMOTE=$(git remote get-url origin)
 NAME=$(git config user.name || echo myradio); EMAIL=$(git config user.email || echo myradio@users.noreply.github.com)
 
-TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
+TMP="D:/Users/msdn/Hermes/work/.publish-$$"; mkdir -p "$TMP"; trap 'rm -rf "$TMP"' EXIT
 git archive HEAD | tar -x -C "$TMP"              # what main has (committed)
 mkdir -p "$TMP/$DIR"
 n=0
