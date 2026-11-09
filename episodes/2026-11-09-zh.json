@@ -1,0 +1,231 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-09",
+ "lang": "zh",
+ "title": "個性可以換：Arete-27B 與六十八小時的開源怪物",
+ "opening": [
+  {
+   "say": "艾琳電台，十一月九日星期一，早安，守富。",
+   "show": "艾琳電台 · 11月9日 星期一 · 早安，守富。"
+  },
+  {
+   "say": "今天三件事剛好一條線：個性可以換，成本可以砍，只有權限要收緊。",
+   "show": "今天的主線：個性可以換、成本可以砍，只有權限要收緊。"
+  }
+ ],
+ "news": [
+  {
+   "label": "偏誤只是一層表層",
+   "points": [
+    "只用監督式微調、5300 萬 token",
+    "官方框架比例 22% → 0.9%",
+    "Terminal-Bench 67% → 70%"
+   ],
+   "lines": [
+    {
+     "say": "第一件，Nous Research 發布 Arete 二十七 B，在 Qwen 三點八 二十七 B 上做後訓練。",
+     "show": "Nous Research 發布 Arete-27B，基於 Qwen3.8-27B 後訓練。"
+    },
+    {
+     "say": "只做監督式微調，沒有強化學習、沒改架構，花了五千三百萬 token；答案裡帶中國官方框架的比例，從兩成二降到不到百分之一。",
+     "show": "只做 SFT：官方框架比例 22% → 0.9%，事實分數 2.32 → 2.98。"
+    },
+    {
+     "say": "能力幾乎沒掉，終端機任務從六成七升到七成。我們以為的意識形態，可能只是一層可以剝掉的語氣。",
+     "show": "Terminal-Bench 67% → 70%：意識形態更像可剝離的表層語氣。"
+    }
+   ],
+   "url": "https://nousresearch.com/arete",
+   "link": {
+    "url": "https://nousresearch.com/arete",
+    "title": "Introducing Arete-27B: Qwen3.8-27B Post-Trained To Reinforce Western Values",
+    "site": "Nous Research",
+    "description": "把 Qwen3.8-27B 後訓練成另一個價值版本，並用 803 題、七個價值類別去量到底改變了什麼。",
+    "image": "https://nousresearch.com/assets/nous-web/blog/arete1-card.webp"
+   }
+  },
+  {
+   "label": "六十八小時的開源怪物",
+   "points": [
+    "594B 總參數 / 17B 激活",
+    "不到 12T token、68 小時預訓練",
+    "每任務 $1.18，對手 $7.77 起"
+   ],
+   "lines": [
+    {
+     "say": "第二件，Inkling 二 Small，總參數五百九十四 B，每個 token 只激活十七 B。",
+     "show": "Inkling 2 Small：594B 總參數、17B 激活。"
+    },
+    {
+     "say": "不到十二兆 token，六十八小時從零練完；Artificial Analysis 拿三十一分，每任務一塊一八美元，比對手便宜六倍以上。",
+     "show": "不到 12T token、68 小時練完；AA 31 分，每任務 $1.18（對手 $7.77 起）。"
+    },
+    {
+     "say": "代價是輸出量大約四倍；而「中國以外最強開源」，要等權重真的放出來才算數。",
+     "show": "代價：輸出 token 約四倍；「最強開源」仍待權重釋出驗證。"
+    }
+   ],
+   "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark",
+   "link": {
+    "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark",
+    "title": "Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark — Latent Space",
+    "site": "Latent Space",
+    "description": "Inkling 2 Small 的訓練實錄，加上 METR 對 Anthropic 內部 AI 研究工作的觀察。",
+    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0b4283eb-1bca-4f20-a474-648eae34f704/Smol_Screenshot_2026-11-06_02.26.38-7ec1786ced3a658a.png?t=1793961438"
+   }
+  },
+  {
+   "label": "高盛把 Claude Code 收回",
+   "points": [
+    "交易員與銀行家的權限被撤",
+    "HN 當日最熱的一條",
+    "致命三要素：客戶資料＋郵件＋外網"
+   ],
+   "lines": [
+    {
+     "say": "第三件，高盛把 Claude Code 從交易員和銀行家手上收回，Hacker News 當天最熱。",
+     "show": "高盛收回交易員與銀行家的 Claude Code 權限，HN 當日最熱。"
+    },
+    {
+     "say": "解讀不是 AI 出包，而是致命三要素：客戶與交易資料、信箱、外網同時可及，一次提示注入就帶得走。",
+     "show": "關鍵不是 AI 出錯，而是「致命三要素」：客戶資料、郵件、外網同時可及。"
+    },
+    {
+     "say": "所以問題不是要不要用代理，而是先把它能碰到的範圍切乾淨。",
+     "show": "問題不是用不用代理，而是先把它的可及範圍切乾淨。"
+    }
+   ],
+   "url": "https://news.ycombinator.com/item?id=50415628",
+   "link": {
+    "url": "https://news.ycombinator.com/item?id=50415628",
+    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+    "site": "Hacker News",
+    "description": "Hacker News 當日最高分討論：銀行把代理收回，理由是資料可及範圍與提示注入風險。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今天就這樣。個性可以換，成本可以砍，只有權限得收緊。",
+   "show": "個性可以換、成本可以砍——只有權限，得收緊。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 99.795,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.518,
+   "show": "艾琳電台 · 11月9日 星期一 · 早安，守富。",
+   "part": 0
+  },
+  {
+   "start": 4.818,
+   "end": 11.479,
+   "show": "今天的主線：個性可以換、成本可以砍，只有權限要收緊。",
+   "part": 0
+  },
+  {
+   "start": 11.779,
+   "end": 20.608,
+   "show": "Nous Research 發布 Arete-27B，基於 Qwen3.8-27B 後訓練。",
+   "part": 1
+  },
+  {
+   "start": 20.908,
+   "end": 32.532,
+   "show": "只做 SFT：官方框架比例 22% → 0.9%，事實分數 2.32 → 2.98。",
+   "part": 1
+  },
+  {
+   "start": 32.832,
+   "end": 42.132,
+   "show": "Terminal-Bench 67% → 70%：意識形態更像可剝離的表層語氣。",
+   "part": 1
+  },
+  {
+   "start": 42.432,
+   "end": 49.407,
+   "show": "Inkling 2 Small：594B 總參數、17B 激活。",
+   "part": 2
+  },
+  {
+   "start": 49.707,
+   "end": 60.443,
+   "show": "不到 12T token、68 小時練完；AA 31 分，每任務 $1.18（對手 $7.77 起）。",
+   "part": 2
+  },
+  {
+   "start": 60.743,
+   "end": 67.822,
+   "show": "代價：輸出 token 約四倍；「最強開源」仍待權重釋出驗證。",
+   "part": 2
+  },
+  {
+   "start": 68.122,
+   "end": 76.351,
+   "show": "高盛收回交易員與銀行家的 Claude Code 權限，HN 當日最熱。",
+   "part": 3
+  },
+  {
+   "start": 76.651,
+   "end": 86.055,
+   "show": "關鍵不是 AI 出錯，而是「致命三要素」：客戶資料、郵件、外網同時可及。",
+   "part": 3
+  },
+  {
+   "start": 86.355,
+   "end": 91.344,
+   "show": "問題不是用不用代理，而是先把它的可及範圍切乾淨。",
+   "part": 3
+  },
+  {
+   "start": 91.644,
+   "end": 97.182,
+   "show": "個性可以換、成本可以砍——只有權限，得收緊。",
+   "part": 4
+  },
+  {
+   "start": 97.482,
+   "end": 99.493,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 11.479
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.779,
+   "end": 42.132
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 42.432,
+   "end": 67.822
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 68.122,
+   "end": 91.344
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 91.644,
+   "end": 99.493
+  }
+ ],
+ "made_at": "2026-11-09T08:41:18+08:00"
+}
