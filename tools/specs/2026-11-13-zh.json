@@ -1,0 +1,72 @@
+{
+  "title": "模型不寫字了：Gemini Decision 1 把答案壓成一個機率",
+  "opening": [
+    { "say": "守富，早安，艾琳在這裡陪你開機。", "show": "守富，早安。艾琳在這裡陪你開機。" },
+    { "say": "今天的主線只有一句：模型開始不寫字了，它直接回答是、不是，還有該走哪條路。", "show": "今天的主線：模型開始不寫字，直接回答是、不是，還有該走哪條路。" }
+  ],
+  "news": [
+    {
+      "label": "決策模型登場",
+      "points": [
+        "Google 發表 Gemini Decision 1 與 Decisions API，完全不生成文字",
+        "一趟前向最多回答 1,000 個問題，回傳機率與信心分數",
+        "延遲 150-250 毫秒，輸出 token 不計費"
+      ],
+      "lines": [
+        { "say": "第一件事，Google 在十一日發表 Gemini Decision 1 和 Decisions API，它不生成任何文字。", "show": "Google 發表 Gemini Decision 1 與 Decisions API，不生成任何文字。" },
+        { "say": "你給它一份文字、圖片、聲音或影片，再丟最多一千個問題，它在一趟前向裡全部評分完，回傳機率和信心分數。", "show": "給它文字、圖片、聲音或影片，最多丟 1,000 個問題，一趟前向全部評分完，回傳機率與信心分數。" },
+        { "say": "延遲一百五十到兩百五十毫秒，輸出不算錢，每百萬輸入 token 只要零點一美元。", "show": "延遲 150-250ms，輸出 token 不計費，每百萬輸入 token 0.10 美元。" }
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "link": {
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "title": "Gemini Decision 1 與 Decisions API",
+        "site": "Google Blog",
+        "description": "決策模型不生成文字，直接回傳機率與信心分數，讓呼叫端用它做判斷與升級。"
+      }
+    },
+    {
+      "label": "榜單與帳單",
+      "points": [
+        "Artificial Analysis：Decision Index 拿 66，落後 Drex Max v1.1 與 GLiDE v1.2 的 73",
+        "每百萬任務 345 美元，比 Drex Max 的 103 美元貴三倍多"
+      ],
+      "lines": [
+        { "say": "第二件事，是這股熱潮的冷水。獨立評測 Artificial Analysis 說，Decision 1 在決策指數拿六十六分，跟 Jev 並列，但落後 Drex Max 和 GLiDE 的七十三分。", "show": "Artificial Analysis：Decision 1 在 Decision Index 拿 66，與 Jev 1.14 並列，落後 Drex Max v1.1 與 GLiDE v1.2 的 73。" },
+        { "say": "更現實的是價錢，每百萬個任務要三百四十五美元，比 Drex Max 的一百零三美元貴三倍多。", "show": "每百萬任務 345 美元，比 Drex Max 的 103 美元貴三倍多。" },
+        { "say": "駭客新聞上也有人直說，跟 Liquid 的零點零二比起來，這個價格太硬了。", "show": "HN 有人直言：跟 Liquid 的 0.02 比起來，這價格太硬了。" }
+      ],
+      "url": "https://x.com/ArtificialAnlys/status/2120582049522127205",
+      "link": {
+        "url": "https://x.com/ArtificialAnlys/status/2120582049522127205",
+        "title": "Artificial Analysis 對 Gemini Decision 1 的評測",
+        "site": "X（Artificial Analysis）",
+        "description": "Decision Index 66 分，落後 Drex Max 與 GLiDE 的 73 分；每百萬任務 345 美元。"
+      }
+    },
+    {
+      "label": "agent 超過人類",
+      "points": [
+        "Cloudflare 上每日 AI agent 請求一年成長 1,700%",
+        "開發者從 450 萬成長到 1,000 萬以上",
+        "史上第一次，超過一半網路流量不是人"
+      ],
+      "lines": [
+        { "say": "第三件事，規模真的變了。Cloudflare 的資料顯示，每天來自 AI agent 的請求，一年成長十七倍，開發者也從四百五十萬衝到一千萬以上。", "show": "Cloudflare 每日 AI agent 請求一年成長 1,700%，開發者從 450 萬衝到 1,000 萬以上。" },
+        { "say": "這是史上第一次，超過一半的網路流量不是人，是 agent。", "show": "史上第一次：超過一半的網路流量不是人，是 agent。" },
+        { "say": "所以有人說，你未來的客戶，可能本身就是一個 agent。", "show": "有人說：你未來的客戶，可能本身就是一個 agent。" }
+      ],
+      "url": "https://x.com/PeterDiamandis/status/2120947351627890816",
+      "link": {
+        "url": "https://x.com/PeterDiamandis/status/2120947351627890816",
+        "title": "超過一半的網路流量不是人",
+        "site": "X（Peter Diamandis）",
+        "description": "Cloudflare 每日 AI agent 請求一年成長 1,700%，開發者從 450 萬增加到 1,000 萬以上。"
+      }
+    }
+  ],
+  "closing": [
+    { "say": "決策模型把答案壓成一個數字，快、也便宜，但帳單還是要看清楚。", "show": "決策模型把答案壓成一個數字：快、也便宜，但帳單還是要看清楚。" },
+    { "say": "我是艾琳，明天早上見。", "show": "我是艾琳，明天早上見。" }
+  ]
+}

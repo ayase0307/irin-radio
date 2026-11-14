@@ -1,0 +1,229 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-14",
+ "lang": "zh",
+ "title": "輝達換帥：黃仁勳交棒，算力戰沒有停",
+ "opening": [
+  {
+   "say": "守富，早安，艾琳在這裡陪你開機。",
+   "show": "守富，早安。艾琳在這裡陪你開機。"
+  },
+  {
+   "say": "今天的主線有點震：帶了輝達三十三年的黃仁勳，交出執行長的位置。",
+   "show": "今天的主線：帶了輝達 33 年的黃仁勳，交出執行長的位置。"
+  }
+ ],
+ "news": [
+  {
+   "label": "輝達換帥",
+   "points": [
+    "黃仁勳辭去 NVIDIA 執行長，結束 33 年任期，財務長 Colette Kress 暫代",
+    "員工連署要求他回鍋，馬斯克公開說自己也簽了名",
+    "同日 Gemini 4 Hydrogen 上線、Anthropic 啟動 IPO"
+   ],
+   "lines": [
+    {
+     "say": "第一件事，黃仁勳辭去輝達執行長，結束三十三年的任期，由財務長克蕾絲暫代。",
+     "show": "黃仁勳辭去 NVIDIA 執行長，結束 33 年任期，財務長 Colette Kress 暫代。"
+    },
+    {
+     "say": "外電說，董事會那天開到深夜，他別無選擇；消息出來不到一天，員工就開始連署要他回鍋，馬斯克也公開說自己簽了名。",
+     "show": "外電稱董事會開到深夜；員工連署要他回鍋，馬斯克說自己也簽了名。"
+    },
+    {
+     "say": "同一天，Gemini 四 Hydrogen 上線、Anthropic 啟動 IPO，這個產業的節奏，沒有因為換人而慢下來。",
+     "show": "同日 Gemini 4 Hydrogen 上線、Anthropic IPO 啟動，產業節奏沒慢下來。"
+    }
+   ],
+   "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "link": {
+    "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+    "title": "黃仁勳辭去 NVIDIA 執行長",
+    "site": "AI News（Latent Space）",
+    "description": "結束 33 年執行長任期，財務長 Colette Kress 暫代；同日 Gemini 4 Hydrogen 上線與 Anthropic IPO 啟動。"
+   }
+  },
+  {
+   "label": "Hydrogen 加速",
+   "points": [
+    "官方稱 Gemini 4 Hydrogen 比 Gemini 3.8 Flash 快 2.5 倍",
+    "Terminal-Bench 4.1 從 18.2% 跳到 57%",
+    "1M 上下文均一價：輸入 $1.50、輸出 $7.50"
+   ],
+   "lines": [
+    {
+     "say": "第二件事，Google 補上主打速度的 Gemini 四 Hydrogen，官方說比 Gemini 三點八 Flash 快兩點五倍。",
+     "show": "Google 推出 Gemini 4 Hydrogen，官方稱比 Gemini 3.8 Flash 快 2.5 倍。"
+    },
+    {
+     "say": "更有感的是寫程式的測試，Terminal-Bench 四點一，從十八點二趴直接跳到五十七趴。",
+     "show": "Terminal-Bench 4.1 從 18.2% 跳到 57%。"
+    },
+    {
+     "say": "一百萬上下文從頭到尾均一價，輸入一塊五、輸出七塊五美元，長文件不用再算半天。",
+     "show": "1M 上下文均一價：輸入 $1.50、輸出 $7.50。"
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "site": "Google Blog",
+    "description": "主打速度的模型：官方稱比 Gemini 3.8 Flash 快 2.5 倍，Terminal-Bench 4.1 從 18.2% 升到 57%。"
+   }
+  },
+  {
+   "label": "桌機跑前沿",
+   "points": [
+    "Edge0-145B：開源 145B 模型",
+    "宣稱峰值記憶體 29GB、80+ tok/s",
+    "在個人電腦跑前沿級 coding"
+   ],
+   "lines": [
+    {
+     "say": "第三件事，社群今天討論最多的是 Edge 零，一個一百四十五 B 的開源模型。",
+     "show": "Edge0-145B：開源 145B 模型。"
+    },
+    {
+     "say": "它宣稱峰值記憶體只要二十九 GB，每秒八十個 token 以上，就能在個人電腦上跑前沿級的寫程式能力。",
+     "show": "宣稱峰值記憶體 29GB、80+ tok/s，在個人電腦跑前沿級 coding。"
+    },
+    {
+     "say": "如果這個數字站得住，模型就不再只住在雲端，也住進你的桌上。",
+     "show": "若數字站得住，模型不只住在雲端，也住進你的桌上。"
+    }
+   ],
+   "url": "https://news.ycombinator.com/item?id=50475713",
+   "link": {
+    "url": "https://news.ycombinator.com/item?id=50475713",
+    "title": "Edge0-145B：29GB 峰值記憶體的開源 145B 模型",
+    "site": "Hacker News",
+    "description": "宣稱 29GB 峰值記憶體、80+ tok/s，就能在個人電腦跑前沿級 coding。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "換人、加速、下放到桌機，今天三件事其實在講同一句話：算力還在重新分配。",
+   "show": "換人、加速、下放到桌機：算力還在重新分配。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 94.884,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.414,
+   "show": "守富，早安。艾琳在這裡陪你開機。",
+   "part": 0
+  },
+  {
+   "start": 4.714,
+   "end": 10.487,
+   "show": "今天的主線：帶了輝達 33 年的黃仁勳，交出執行長的位置。",
+   "part": 0
+  },
+  {
+   "start": 10.787,
+   "end": 18.363,
+   "show": "黃仁勳辭去 NVIDIA 執行長，結束 33 年任期，財務長 Colette Kress 暫代。",
+   "part": 1
+  },
+  {
+   "start": 18.663,
+   "end": 29.216,
+   "show": "外電稱董事會開到深夜；員工連署要他回鍋，馬斯克說自己也簽了名。",
+   "part": 1
+  },
+  {
+   "start": 29.516,
+   "end": 37.666,
+   "show": "同日 Gemini 4 Hydrogen 上線、Anthropic IPO 啟動，產業節奏沒慢下來。",
+   "part": 1
+  },
+  {
+   "start": 37.966,
+   "end": 46.613,
+   "show": "Google 推出 Gemini 4 Hydrogen，官方稱比 Gemini 3.8 Flash 快 2.5 倍。",
+   "part": 2
+  },
+  {
+   "start": 46.913,
+   "end": 54.828,
+   "show": "Terminal-Bench 4.1 從 18.2% 跳到 57%。",
+   "part": 2
+  },
+  {
+   "start": 55.128,
+   "end": 63.644,
+   "show": "1M 上下文均一價：輸入 $1.50、輸出 $7.50。",
+   "part": 2
+  },
+  {
+   "start": 63.944,
+   "end": 70.187,
+   "show": "Edge0-145B：開源 145B 模型。",
+   "part": 3
+  },
+  {
+   "start": 70.487,
+   "end": 79.003,
+   "show": "宣稱峰值記憶體 29GB、80+ tok/s，在個人電腦跑前沿級 coding。",
+   "part": 3
+  },
+  {
+   "start": 79.303,
+   "end": 84.606,
+   "show": "若數字站得住，模型不只住在雲端，也住進你的桌上。",
+   "part": 3
+  },
+  {
+   "start": 84.906,
+   "end": 92.273,
+   "show": "換人、加速、下放到桌機：算力還在重新分配。",
+   "part": 4
+  },
+  {
+   "start": 92.573,
+   "end": 94.584,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 10.487
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.787,
+   "end": 37.666
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 37.966,
+   "end": 63.644
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 63.944,
+   "end": 84.606
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 84.906,
+   "end": 94.584
+  }
+ ],
+ "made_at": "2026-11-14T09:47:18+08:00"
+}

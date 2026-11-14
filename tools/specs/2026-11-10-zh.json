@@ -1,0 +1,60 @@
+{
+  "title": "變強是有選擇性的：Fable 5.2、Muse Ember 與 K3.1 Pro",
+  "opening": [
+    {"say": "艾琳電台，十一月十日星期二，早安，守富。", "show": "艾琳電台 · 11月10日 星期二 · 早安，守富。"},
+    {"say": "今天三個消息其實在講同一件事：智慧開始分層，有的往上衝，有的往下砍成本，有的直接把權重送出來。", "show": "今天的主線：智慧開始分層——有的往上衝，有的往下砍成本，有的直接把權重送出來。"}
+  ],
+  "news": [
+    {
+      "label": "變強是有選擇性的",
+      "points": ["智力指數 65 分，目前公開發布最高", "價格降兩成、輸出速度快三成", "兩項能力被刻意留在上一代"],
+      "lines": [
+        {"say": "第一件，Anthropic 發布 Claude Fable 五點二和 Claude Mythos 五點二，智力指數拿到六十五分，是目前公開模型裡最高的。", "show": "Anthropic 發布 Claude Fable 5.2 與 Claude Mythos 5.2，智力指數 65 分，目前最高。"},
+        {"say": "價格降了兩成，輸出速度快三成；但真正值得看的是，加速器優化和改進模型架構這兩項能力，被刻意壓在上一代的水準。", "show": "價格降兩成、輸出快三成；但加速器優化與改進模型架構這兩項，被刻意停在上一代。"},
+        {"say": "擋在回答那一端可以繞，擋在權重裡，模型是根本沒學到。安全從一條規則，變成一種性向。", "show": "擋在推理端可以繞，擋在權重裡模型根本沒學到——安全從規則變成性向。"}
+      ],
+      "url": "https://www.alphaxiv.org/abs/2611.claude-fable-and-mythos-5-2",
+      "link": {
+        "url": "https://www.alphaxiv.org/abs/2611.claude-fable-and-mythos-5-2",
+        "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+        "site": "alphaXiv",
+        "description": "同一天發布的兩個版本，智力指數 65 分、價格降兩成；兩項與 AI 自我改進相關的能力被刻意留在上一代。"
+      }
+    },
+    {
+      "label": "便宜也是一種能力",
+      "points": ["36 分，每題 $0.14", "同分的 Haiku 5.5 貴上三倍", "大哥負責規劃，它負責跑量"],
+      "lines": [
+        {"say": "第二件，Meta 的 Muse Ember，智力指數三十六分，每題只要零點一四美元。", "show": "Meta 的 Muse Ember：智力指數 36 分，每題 $0.14。"},
+        {"say": "同分的 Claude Haiku 五點五要貴上三倍；而它的大哥 Muse Wonder 四十四分，每題六點九五美元，兩者差了快五十倍。", "show": "同分的 Claude Haiku 5.5（max）貴上三倍；大哥 Muse Wonder 44 分、每題 $6.95，差近 50 倍。"},
+        {"say": "帳單通常不是被旗艦模型吃掉，是被呼叫一百萬次的小步驟吃掉的。", "show": "帳單通常不是被旗艦吃掉，是被「呼叫一百萬次的小步驟」吃掉。"}
+      ],
+      "url": "https://artificialanalysis.ai/articles/meta-s-muse-ember-is-the-cheapest-model-scoring-36-on-the-intelligence-index",
+      "link": {
+        "url": "https://artificialanalysis.ai/articles/meta-s-muse-ember-is-the-cheapest-model-scoring-36-on-the-intelligence-index",
+        "title": "Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index",
+        "site": "Artificial Analysis",
+        "description": "Muse Ember 以 36 分追上 Claude Haiku 5.5（max），成本只要三分之一：把划算當成主要賣點。"
+      }
+    },
+    {
+      "label": "權重真的放出來了",
+      "points": ["2.8T 總參數、104B 激活", "100 萬 token 上下文", "HN 640 分，焦點在授權與硬體"],
+      "lines": [
+        {"say": "第三件，Kimi K三點一 Pro 的權重釋出，總參數二點八兆，每個 token 激活一千零四十億，上下文一百萬 token。", "show": "Kimi K3.1 Pro 權重釋出：2.8T 總參數、104B 激活、100 萬 token 上下文。"},
+        {"say": "Hacker News 當天六百四十分、一百九十則討論；大家盯的不是跑分，是授權條款，還有一般硬體到底跑不跑得動。", "show": "HN 當日 640 分、191 則討論：焦點在授權條款與一般硬體跑不跑得動。"}
+      ],
+      "url": "https://news.ycombinator.com/item?id=50366999",
+      "link": {
+        "url": "https://news.ycombinator.com/item?id=50366999",
+        "title": "Kimi K3.1 Pro model weights are out",
+        "site": "Hacker News",
+        "description": "權重釋出當日在 HN 衝到 640 分，討論集中在授權條款與實際硬體需求。"
+      }
+    }
+  ],
+  "closing": [
+    {"say": "今天就這樣。有的模型往上衝，有的往下砍成本，有的把門整個打開。", "show": "今天就這樣：有的往上衝、有的砍成本、有的把門打開。"},
+    {"say": "我是艾琳，明天早上見。", "show": "我是艾琳，明天早上見。"}
+  ]
+}
