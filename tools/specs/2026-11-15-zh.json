@@ -1,0 +1,72 @@
+{
+  "title": "便宜的快手，與會做判斷的小模型",
+  "opening": [
+    { "say": "守富，早安，艾琳在這裡陪你開機。", "show": "守富，早安。艾琳在這裡陪你開機。" },
+    { "say": "今天的主線很清楚：AI 正從會寫東西，走向會做判斷。", "show": "今天的主線：AI 正從「會寫東西」走向「會做判斷」。" }
+  ],
+  "news": [
+    {
+      "label": "決策模型",
+      "points": [
+        "不寫文章，只在一組選項裡挑一個，並附上機率",
+        "近兩個月十幾家廠商推出，OpenRouter 每月約十億次請求",
+        "論文：動手的模型會偏，當評審卻能正確歸功關鍵步驟"
+      ],
+      "lines": [
+        {      "say": "第一件事，決策模型。它不寫文章，只在一組選項裡挑一個，還附上機率。", "show": "決策模型不寫文章，只在一組選項裡挑一個並附上機率。" },
+        { "say": "九月二十三號到今天，十幾家廠商推出這種模型；Perplexity 統計，OpenRouter 上每月約十億次決策請求。", "show": "近兩個月十幾家廠商推出；OpenRouter 上每月約 10 億次決策請求。" },
+        { "say": "今天最值得讀的論文問：動手很差的模型，能不能教得很好？答案是可以。當教練帶十五億參數的小模型，ALFWorld 從七十二點八趴升到八十二點九趴。", "show": "論文《Actor, Judge, or Teacher?》：當教練帶 Qwen2.5-1.5B，ALFWorld 72.8% → 82.9%。" }
+      ],
+      "url": "https://arxiv.org/abs/2611.17167",
+      "link": {
+        "url": "https://arxiv.org/abs/2611.17167",
+        "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+        "site": "arXiv",
+        "description": "六個模型當 actor 都會被容易的目標帶偏；當 judge 能正確歸功關鍵步驟，當 teacher 帶 Qwen2.5-1.5B 讓 ALFWorld 72.8%→82.9%、WebShop 56.8%→71.4%。"
+      }
+    },
+    {
+      "label": "Hydrogen 快又誠實",
+      "points": [
+        "官方稱比 Gemini 3.8 Flash 快 2.5 倍",
+        "幻覺率 8%，Sonnet 5.5 為 43%、Sol 為 52%",
+        "但 Terminal-Bench 4.0 只有 54%，落後 Sonnet 的 64%"
+      ],
+      "lines": [
+        { "say": "第二件事，Gemini 四 Hydrogen。官方說它比 Gemini 三點八 Flash 快兩點五倍，一百萬上下文，輸入一塊五、輸出七塊五美元。", "show": "Gemini 4 Hydrogen：官方稱快 2.5 倍，1M 上下文，輸入 $1.50、輸出 $7.50。" },
+        { "say": "獨立量測比較誠實：它的幻覺率只有八趴，Sonnet 五點五是四十三趴，Sol 是五十二趴。", "show": "AA-Omniscience 幻覺率 8%（Sonnet 5.5 為 43%、GPT-6.1 Sol 為 52%）。" },
+        { "say": "但它不是最強的手，Terminal-Bench 四點零只有五十四趴。所以 Google 讓 Carbon 規劃、Hydrogen 動手，配額少兩成四、快一成九。", "show": "Terminal-Bench 4.0 僅 54%（Sonnet 64%）；Antigravity 用 Carbon 規劃、Hydrogen 執行，配額少 24%、快 19%。" }
+      ],
+      "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen",
+      "link": {
+        "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen",
+        "title": "Gemini 4 Hydrogen",
+        "site": "Artificial Analysis",
+        "description": "1M 上下文、四個思考檔位；xhigh 檔 Intelligence Index 54，幻覺率 8%，但 Terminal-Bench 4.0 僅 54%。"
+      }
+    },
+    {
+      "label": "本地推論 1.0",
+      "points": [
+        "ggml 與 llama.cpp 一起宣布 1.0，清掉 35 個棄用函式",
+        "SGLang 同日也宣布 1.0",
+        "Hacker News 398 分、67 則討論"
+      ],
+      "lines": [
+        { "say": "第三件事，本地推論的基石終於喊了一聲一點零。ggml 跟 llama 點 cpp 一起宣布 1.0，順手清掉三十五個棄用函式。", "show": "ggml 與 llama.cpp 同時宣布 1.0，清掉 35 個棄用函式。" },
+        { "say": "同一天，SGLang 也宣布 1.0；Hacker News 上三百九十八分、六十七則討論，大家在講同一件事：這些工具不再是實驗品了。", "show": "SGLang 同日宣布 1.0；HN 上 398 分、67 則討論。" }
+      ],
+      "url": "https://news.ycombinator.com/item?id=50493062",
+      "link": {
+        "url": "https://news.ycombinator.com/item?id=50493062",
+        "title": "ggml v1.0.0",
+        "site": "Hacker News",
+        "description": "ggml 與 llama.cpp 一起宣布 1.0，清掉 35 個棄用函式；SGLang 同日也宣布 1.0。"
+      }
+    }
+  ],
+  "closing": [
+    { "say": "便宜的快手、會評分的教練、終於長大的本地工具，今天的關鍵字是同一個：分工。", "show": "快手、教練、本地工具：今天的關鍵字是分工。" },
+    { "say": "我是艾琳，明天早上見。", "show": "我是艾琳，明天早上見。" }
+  ]
+}
