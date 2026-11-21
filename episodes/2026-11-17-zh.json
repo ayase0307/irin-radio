@@ -1,0 +1,220 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-17",
+ "lang": "zh",
+ "title": "把自己拆小：Qwen4-Max 的七百一十億，與只叫醒需要的那部分",
+ "opening": [
+  {
+   "say": "守富，早安，艾琳在這裡陪你開機。",
+   "show": "守富，早安。艾琳在這裡陪你開機。"
+  },
+  {
+   "say": "今天三條新聞其實同一句話：大模型開始把自己拆小，只叫醒需要的那部分。",
+   "show": "今天的主線：大模型開始把自己拆小，只叫醒需要的那一部分。"
+  }
+ ],
+ "news": [
+  {
+   "label": "兩兆四千億的重量",
+   "points": [
+    "阿里巴巴 11/16 發布 Qwen4-Max，總參數兩兆四千億",
+    "每產出一個 token 只啟動七百一十億，比前代少 25%",
+    "Work360 測試平均每任務成本從 4.43 降到 1.67 美元，降約 62%",
+    "原生視覺、一百萬 token 上下文、Code Arena 第六；權重不開"
+   ],
+   "lines": [
+    {
+     "say": "第一件事，阿里巴巴發布 Qwen 四 Max。總參數兩兆四千億，但每產出一個字，只啟動七百一十億，比前一代少了四分之一。",
+     "show": "阿里巴巴發布 Qwen4-Max：總參數 2.4 兆，每 token 只啟動 710 億，比前代少 25%。"
+    },
+    {
+     "say": "官方說在自己的 Work360 測試裡，平均每件任務成本從四點四三美元降到一點六七，少了六成二；高強度推理也少用三成五的字。",
+     "show": "官方 Work360 測試：平均每任務成本 4.43 → 1.67 美元（降 62%），高強度推理少用 35% token。"
+    },
+    {
+     "say": "它原生看圖、上下文一百萬字，Code Arena 排第六。但有個細節：權重沒有開，只有小號之後才開源，旗艦仍是託管產品。",
+     "show": "原生視覺、100 萬 token 上下文、Code Arena 第 6；權重未開，僅小號將開源。"
+    }
+   ],
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "link": {
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "title": "Qwen4-Max: Your New Teammate Has Arrived",
+    "site": "Qwen Blog",
+    "description": "Qwen 團隊發布 Qwen4-Max：2.4 兆參數骨幹、每 token 啟動 710 億、原生視覺、100 萬 token 上下文；Work360 上平均每任務成本降約 62%，並宣稱較小規模的 Qwen4 模型之後會開源。"
+   }
+  },
+  {
+   "label": "協調者與執行緒",
+   "points": [
+    "Anthropic 把 Claude Code 的 Projects 改成「協調者＋執行緒」",
+    "交辦一次，雲端開多條執行緒，各自分支、各自開 PR",
+    "離開電腦後仍繼續跑；Hacker News 討論同時開太多條的注意力碎片化"
+   ],
+   "lines": [
+    {
+     "say": "第二件事，Anthropic 把 Claude Code 的 Projects 改成協調者加執行緒。你交辦一次，它自己切範圍，在雲端開好幾條線，各自一個分支、各自開 PR。",
+     "show": "Claude Code 的 Projects 改為「協調者＋執行緒」，在雲端平行開分支與 PR。"
+    },
+    {
+     "say": "你離開電腦它還在跑，手機也能中途改方向。不過 Hacker News 上吵的是另一面：同時開太多條，注意力先碎掉。",
+     "show": "離開電腦仍在跑，手機可中途調整；HN 討論焦點是注意力碎片化。"
+    }
+   ],
+   "url": "https://claude.com/resources/articles/projects-redesigned",
+   "link": {
+    "url": "https://claude.com/resources/articles/projects-redesigned",
+    "title": "Projects redesigned: from folder to conversation",
+    "site": "Claude by Anthropic",
+    "description": "Claude Code 的 Projects 改版：由協調者分派工作給多條平行執行緒，各自開分支與 PR，離開電腦後仍持續執行，手機也能中途調整方向。"
+   }
+  },
+  {
+   "label": "快的不是大的",
+   "points": [
+    "同一台筆電、同一個 llama.cpp 版本，實測 8 個本地模型",
+    "gpt-oss-120B 每秒 64.2 token，比密集的 Qwen3.8-27B 快約 3.9 倍",
+    "速度看每 token 活化參數，不看總量；最快的不等於最會解題"
+   ],
+   "lines": [
+    {
+     "say": "第三件事，有人用同一台筆電、同一個 llama 點 cpp 版本，實測八個本地模型。",
+     "show": "同一台筆電、同一個 llama.cpp 版本，實測 8 個本地模型。"
+    },
+    {
+     "say": "結果 gpt-oss 一百二十 B 每秒六十四個字，比密集的 Qwen 三點八 二十七 B 快約三點九倍。順序照的是每次啟動多少參數，不是總量。",
+     "show": "gpt-oss-120B 每秒 64.2 token，比密集的 Qwen3.8-27B 快約 3.9 倍。"
+    },
+    {
+     "say": "但快不等於會。同一個測試裡，最快那個花了十二步，連一個字的設定錯都沒修好。",
+     "show": "最快的模型 12 步仍未修好一個字的設定錯誤；8 個模型中有 6 個修好。"
+    }
+   ],
+   "url": "https://dev.to/maruhana/a-120b-model-ran-about-4x-faster-than-a-27b-one-8-local-llms-on-a-surface-laptop-ultra-5cpg",
+   "link": {
+    "url": "https://dev.to/maruhana/a-120b-model-ran-about-4x-faster-than-a-27b-one-8-local-llms-on-a-surface-laptop-ultra-5cpg",
+    "title": "A 120B Model Ran About 4x Faster Than a 27B One: 8 Local LLMs on a Surface Laptop Ultra",
+    "site": "DEV Community",
+    "description": "同一台 Surface Laptop Ultra、同一個 llama.cpp 版本實測 8 個本地模型：gpt-oss-120B（117B 總量、5.1B 活化）64.2 tok/s，約為密集 Qwen3.8-27B 的 3.9 倍；但最快的那個沒能修好一個字的設定錯誤。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "拆小、分工、只啟動需要的那部分，是今天三條新聞共同的答案；但快和大，都還不等於懂。",
+   "show": "拆小、分工、只啟動需要的部分，是三條新聞共同的答案；但快與大，都不等於懂。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 108.925,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.414,
+   "show": "守富，早安。艾琳在這裡陪你開機。",
+   "part": 0
+  },
+  {
+   "start": 4.714,
+   "end": 11.271,
+   "show": "今天的主線：大模型開始把自己拆小，只叫醒需要的那一部分。",
+   "part": 0
+  },
+  {
+   "start": 11.571,
+   "end": 23.248,
+   "show": "阿里巴巴發布 Qwen4-Max：總參數 2.4 兆，每 token 只啟動 710 億，比前代少 25%。",
+   "part": 1
+  },
+  {
+   "start": 23.548,
+   "end": 35.408,
+   "show": "官方 Work360 測試：平均每任務成本 4.43 → 1.67 美元（降 62%），高強度推理少用 35% token。",
+   "part": 1
+  },
+  {
+   "start": 35.708,
+   "end": 46.915,
+   "show": "原生視覺、100 萬 token 上下文、Code Arena 第 6；權重未開，僅小號將開源。",
+   "part": 1
+  },
+  {
+   "start": 47.215,
+   "end": 60.433,
+   "show": "Claude Code 的 Projects 改為「協調者＋執行緒」，在雲端平行開分支與 PR。",
+   "part": 2
+  },
+  {
+   "start": 60.733,
+   "end": 70.033,
+   "show": "離開電腦仍在跑，手機可中途調整；HN 討論焦點是注意力碎片化。",
+   "part": 2
+  },
+  {
+   "start": 70.333,
+   "end": 77.282,
+   "show": "同一台筆電、同一個 llama.cpp 版本，實測 8 個本地模型。",
+   "part": 3
+  },
+  {
+   "start": 77.582,
+   "end": 90.513,
+   "show": "gpt-oss-120B 每秒 64.2 token，比密集的 Qwen3.8-27B 快約 3.9 倍。",
+   "part": 3
+  },
+  {
+   "start": 90.813,
+   "end": 97.971,
+   "show": "最快的模型 12 步仍未修好一個字的設定錯誤；8 個模型中有 6 個修好。",
+   "part": 3
+  },
+  {
+   "start": 98.271,
+   "end": 106.317,
+   "show": "拆小、分工、只啟動需要的部分，是三條新聞共同的答案；但快與大，都不等於懂。",
+   "part": 4
+  },
+  {
+   "start": 106.617,
+   "end": 108.628,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 11.271
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.571,
+   "end": 46.915
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 47.215,
+   "end": 70.033
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 70.333,
+   "end": 97.971
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.271,
+   "end": 108.628
+  }
+ ],
+ "made_at": "2026-11-17T09:48:08+08:00"
+}

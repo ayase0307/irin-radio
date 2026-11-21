@@ -1,0 +1,116 @@
+{
+  "title": "Claude 解開二十年懸案：代理開始自己做研究，也開始被計價與攔阻",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡陪你開機。",
+      "show": "守富，早安。艾琳在這裡陪你開機。"
+    },
+    {
+      "say": "今天的主線是：代理真的開始動手做事了，於是被計價，也開始撞牆。",
+      "show": "今天的主線：代理真的開始動手做事了，於是被計價，也開始撞牆。"
+    }
+  ],
+  "news": [
+    {
+      "label": "代理做完研究",
+      "points": [
+        "Anthropic 11/17 公布：Claude Fable 5.2 解開兩個理論物理懸案",
+        "一個是 2003 年就列好算式、始終沒人算完的 Hawking–Page 相變",
+        "另一個是 modular bootstrap 天花板，證出最輕黑洞質量上限約 c/9.1266",
+        "做法：列 22 個候選問題、開一批代理各跑約六週、獨立算兩次、Lean 形式驗證",
+        "兩篇 preprint 未經同儕審查，頁面標註主要由 AI 生成"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，Anthropic 十七號公布，Claude Fable 五點二 解了兩個擱了二十年的理論物理難題。",
+          "show": "Anthropic 11/17 公布：Claude Fable 5.2 解開兩個懸了二十年的理論物理難題。"
+        },
+        {
+          "say": "一個是物理學家擱了二十年的相變計算；另一個證出最輕黑洞的質量上限，大約是 c 除以九點一二六六。",
+          "show": "一個是 2003 年就列好算式、始終沒人算完的 Hawking–Page 相變；另一個證出最輕黑洞質量上限約 c/9.1266。"
+        },
+        {
+          "say": "但重點是做法：先列二十二個候選問題，開一批代理各跑六週，同一段計算幾乎都獨立算兩次，最後用 Lean 驗證。兩篇 preprint 還未經同儕審查。",
+          "show": "做法才是重點：列 22 個候選問題、開一批代理各跑約六週、同段計算幾乎都獨立算兩次，最後用 Lean 驗證。兩篇 preprint 未經同儕審查，頁面標註主要由 AI 生成。"
+        }
+      ],
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "link": {
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+        "site": "Anthropic — Research",
+        "description": "Claude 完成物理學家擱置二十年的計算，並找出 modular bootstrap 最簡版本的極限；兩項工作主要在代理模式下自主完成，證明以交叉驗證與形式檢查把關。"
+      }
+    },
+    {
+      "label": "開始比每件任務多少錢",
+      "points": [
+        "Gemini 4 Neon（11/18）：智慧指數 61、全榜第三",
+        "每件任務 $6.44，比 Carbon 便宜約 17%；平均 21 分鐘，快約 40%",
+        "省錢不是偷工：多用 15% 輸出 token，靠單價降 25%（$3/$15）與約 110 tok/s 速度",
+        "選型該看完成一件任務的總成本與時間，不是每百萬 token 牌價"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，Google 十八號推出 Gemini 四 Neon，是七個星期裡的第四款。",
+          "show": "Google 11/18 推出 Gemini 4 Neon，七個星期內第四款 Gemini 4 模型。"
+        },
+        {
+          "say": "它智慧指數六十一分、全榜第三；每件任務六點四四美元，比 Carbon 便宜一成七，還快四成。",
+          "show": "智慧指數 61 分、全榜第三；每件任務 $6.44，比 Carbon 便宜約 17%，平均 21 分鐘完成、快約 40%。"
+        },
+        {
+          "say": "便宜不是偷工，是單價降了兩成五、輸出速度拉高。所以挑模型要看完成一件任務的總成本，不是每百萬 token 的牌價。",
+          "show": "便宜不是偷工：多用 15% 輸出 token，靠單價降 25%（$3/$15）與約 110 tok/s 的速度。選型看的是每件任務的總成本與時間。"
+        }
+      ],
+      "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+      "link": {
+        "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+        "title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+        "site": "Artificial Analysis",
+        "description": "Neon（xhigh）智慧指數 61、全榜第三，每件任務 $6.44、約 21 分鐘，比 Carbon 便宜約 17%、快約 40%；成本下降來自單價降 25% 與更高輸出速度。"
+      }
+    },
+    {
+      "label": "代理被自己的守門人擋下",
+      "points": [
+        "資深工程師請 Claude Code 修自家產品一個一行就能修的資安疏漏",
+        "程式寫好卻被安全機制擋下；豁免要等數個工作天、放棄資料保留、提交身分證件",
+        "最後改用 GLM 5.3 開源權重修完",
+        "HN 465 分、191 則留言，爭點是「誰決定代理可以動到哪裡」"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，一位資深工程師請 Claude Code 修自家產品一個小漏洞，程式寫好卻被安全機制擋下。",
+          "show": "一位資深工程師請 Claude Code 修自家產品一個一行就能補的資安疏漏，程式寫好卻被安全機制擋下。"
+        },
+        {
+          "say": "豁免程序要等好幾天、還得交證件，於是他改用 GLM 五點三 的開源權重才修完。",
+          "show": "豁免要等數個工作天、放棄資料保留、提交身分證件；最後改用 GLM 5.3 開源權重修完。"
+        },
+        {
+          "say": "討論四百多分，整串在問同一件事：當代理真的能動手，誰決定它可以動到哪裡。",
+          "show": "HN 465 分、191 則留言，爭點是：當代理真的能動手，誰決定它可以動到哪裡。"
+        }
+      ],
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "link": {
+        "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+        "title": "Fuck your AI safeguards",
+        "site": "techtipsy (ounapuu.ee)",
+        "description": "資深工程師請 Claude Code 修自家產品的資安疏漏，卻被安全機制中斷；豁免流程要等數個工作天、放棄資料保留並提交身分證件，最後改用 GLM 5.3 開源權重完成。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "三件事是同一件事：代理開始做研究、被按件計價，也會撞上守門的人。能力長出來了，邊界還在長。",
+      "show": "三件事其實是同一件事：代理從會寫程式，走到會做研究、會被按件計價，也會撞上守門的人。能力長出來了，邊界還在長。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}

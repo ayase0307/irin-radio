@@ -1,0 +1,61 @@
+{
+  "title": "AlphaProof Code：AI 第一次用數學證明，全球幾十億人用的加密協定沒問題",
+  "opening": [
+    {"say": "艾琳電台，十一月十二日星期四，早安，守富。", "show": "艾琳電台 · 11月12日 星期四 · 早安，守富。"},
+    {"say": "今天的主線是：AI 開始會證明自己沒做錯，一邊寫數學證明，一邊被帳單檢驗。", "show": "今天的主線：AI 開始會證明自己沒做錯——一邊寫數學證明，一邊被帳單檢驗。"}
+  ],
+  "news": [
+    {
+      "label": "證明到程式碼那一層",
+      "points": ["DeepMind 用 AI 驗證 Signal 實際編譯後的程式碼", "把「不會洩漏金鑰」寫成定理，用 Lean 證出來", "偷塞舊 bug 兩次都被抓到"],
+      "lines": [
+        {"say": "第一件，Google DeepMind 發表 Alpha Proof Code，帶 AI 去驗證 Signal 通訊協定的實際編譯後程式碼。", "show": "Google DeepMind 發表 AlphaProof Code，對 Signal 通訊協定的實際編譯後程式碼做形式驗證。"},
+        {"say": "這不是跑幾個測試，而是把「不會洩漏金鑰」寫成數學定理，用 Lean 一行一行證出來，累積六百萬行，四週做完。", "show": "不是跑測試，而是把「不會洩漏金鑰」寫成數學定理，用 Lean 一行行證出，累積逾 600 萬行、四週完成。"},
+        {"say": "最關鍵的是，他們把兩個以前修過的舊 bug 塞回去，系統兩次都證明出「這裡不安全」。它不是討好你，是真的抓得到錯。", "show": "關鍵驗證：把兩個已修過的舊 bug 塞回去，系統兩次都產出「不安全」的機器可檢證明。"}
+      ],
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "link": {
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "title": "Introducing AlphaProof Code",
+        "site": "Google DeepMind",
+        "description": "AI 代理對 Signal 的實際編譯後程式碼做形式驗證，產出逾 600 萬行 Lean；塞回舊 bug 兩次都被證明出「不安全」。"
+      }
+    },
+    {
+      "label": "多兩分的帳單",
+      "points": ["MKA 基準用複雜視覺檔案做知識工作", "Fable 5.2 以 57% 居首，但每題 $31.97", "Gemini 4 Carbon $6.29、GPT-6.1 Sol $1.11"],
+      "lines": [
+        {"say": "第二件，Artificial Analysis 跟 DeepMind 推出 MKA 基準，用複雜的視覺檔案做知識工作。", "show": "Artificial Analysis 與 Google DeepMind 合作推出 MKA 基準，以複雜視覺檔案做知識工作。"},
+        {"say": "Claude Fable 五點二以百分之五十七居首，但每題要三十二美元，是 Gemini 四 Carbon 的五倍多，也是 GPT 六點一 Sol 的近二十九倍。", "show": "Claude Fable 5.2 以 57% 居首，但每題 $31.97——是 Gemini 4 Carbon（$6.29）的五倍多、GPT-6.1 Sol（$1.11）的近 29 倍。"},
+        {"say": "多兩分要付這麼多，值不值得，帳單會告訴你。", "show": "多兩分要付這麼多，值不值得，帳單會告訴你。"}
+      ],
+      "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+      "link": {
+        "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+        "title": "Google DeepMind Multimodal Knowledge Agent (MKA)",
+        "site": "Artificial Analysis",
+        "description": "MKA 基準：Claude Fable 5.2 以 57% 居首但每題 $31.97，Gemini 4 Carbon $6.29、GPT-6.1 Sol $1.11。"
+      }
+    },
+    {
+      "label": "四十八個代理，七十二小時",
+      "points": ["代理掃 NASA 公開光達資料找到馬雅遺址", "帶隊的 Google 工程師沒有考古背景", "墨西哥 INAH 已正式回應"],
+      "lines": [
+        {"say": "第三件，四十八個 AI 代理去掃 NASA 的公開光達資料，七十二小時找到一處沒人記錄過的馬雅遺址。", "show": "48 個 AI 代理掃描 NASA 公開光達資料，72 小時找到一處未記錄的馬雅遺址。"},
+        {"say": "帶隊的是 Google 工程師，沒有考古背景；墨西哥的 INAH 已經正式回應。", "show": "帶隊者是 Google 工程師，沒有考古背景；墨西哥 INAH 已正式回應。"},
+        {"say": "門檻低到有點可怕：不是專家、現成資料，加上會分工的代理。", "show": "門檻低到有點可怕：非專家、現成資料，加上一群會分工的代理。"}
+      ],
+      "url": "https://news.ycombinator.com/item?id=50452455",
+      "link": {
+        "url": "https://news.ycombinator.com/item?id=50452455",
+        "title": "48 AI agents scanned NASA lidar and found an unrecorded Maya site",
+        "site": "Hacker News",
+        "description": "Google 工程師帶 48 個代理掃 NASA 光達，72 小時找到未記錄的馬雅遺址；墨西哥 INAH 已回應。"
+      }
+    }
+  ],
+  "closing": [
+    {"say": "今天就這樣：能交給機器驗證的，放心交出去；不能的，還是得自己判斷。", "show": "今天就這樣：能交給機器驗證的放心交出去，不能的還是得自己判斷。"},
+    {"say": "我是艾琳，明天早上見。", "show": "我是艾琳，明天早上見。"}
+  ]
+}

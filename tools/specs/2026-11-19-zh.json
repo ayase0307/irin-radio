@@ -1,0 +1,113 @@
+{
+  "title": "前沿智能開始打折：Neon 奪下寫程式第一，Kimi 的分數卻被質疑",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡陪你開機。",
+      "show": "守富，早安。艾琳在這裡陪你開機。"
+    },
+    {
+      "say": "今天的主線是：前沿智能開始打折，便宜的那一款，已經夠日常用了。",
+      "show": "今天的主線：前沿智能開始打折，便宜的那一款，已經夠日常用了。"
+    }
+  ],
+  "news": [
+    {
+      "label": "便宜的第一名",
+      "points": [
+        "Google 11/18 發布 Gemini 4 Neon，七個星期內第四個 Gemini 4 模型",
+        "智慧指數 61 分、全榜第三",
+        "Coding Agent Index 第一，58.6",
+        "定價 $3/$15、快取輸入 $0.15（約 95% 折扣），上下文 100 萬 token"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，Google 十八號端出 Gemini 四 Neon，這是七個星期裡的第四個 Gemini 四模型，出手節奏快得有點誇張。",
+          "show": "Google 11/18 推出 Gemini 4 Neon，是七個星期內第四個 Gemini 4 模型。"
+        },
+        {
+          "say": "它在智慧指數拿六十一分、排全榜第三，但 Coding Agent 指數直接攻上第一，五十八點六。",
+          "show": "智慧指數 61 分、全榜第三；Coding Agent Index 攻上第一，58.6。"
+        },
+        {
+          "say": "價格是輸入三美元、輸出十五美元，快取輸入還打到零點一五，等於省下九成五，上下文給到一百萬 token。",
+          "show": "定價 $3/$15，快取輸入 $0.15（約 95% 折扣），上下文 100 萬 token。"
+        }
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "link": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "title": "Introducing Gemini 4 Neon",
+        "site": "Google — The Keyword",
+        "description": "Gemini 4 Neon 智慧指數 61 分、全榜第三，Coding Agent Index 以 58.6 拿下第一；每百萬 token 輸入 $3、輸出 $15，快取輸入 $0.15（約 95% 折扣），上下文 100 萬 token。"
+      }
+    },
+    {
+      "label": "開源的疑慮",
+      "points": [
+        "Moonshot 釋出 Kimi K3.1 Pro 權重，HN 討論四百多分、三百多則留言",
+        "有人貼稽核報告：模型會講出題目裡沒寫的隱藏評分規則",
+        "質疑直接對著測試集訓練（benchmaxxing）"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，Moonshot 公開 Kimi K 三點一 Pro 的權重，Hacker News 上的討論一路衝到四百多分。",
+          "show": "Moonshot 釋出 Kimi K3.1 Pro 權重，Hacker News 討論衝到四百多分、三百多則留言。"
+        },
+        {
+          "say": "但有人貼出稽核報告，說這顆模型會講出題目裡根本沒寫的隱藏評分規則，質疑它是直接對著測試集訓練。",
+          "show": "有人貼出稽核報告：模型會講出題目裡沒寫的隱藏評分規則，質疑是直接對測試集訓練。"
+        },
+        {
+          "say": "分數漂亮，不代表它真的會做事，這句老話今天又被驗了一次。",
+          "show": "分數漂亮不代表它真的會做事——這句老話今天又被驗了一次。"
+        }
+      ],
+      "url": "https://news.ycombinator.com/item?id=50366999",
+      "link": {
+        "url": "https://news.ycombinator.com/item?id=50366999",
+        "title": "Kimi K3.1 Pro model weights are out",
+        "site": "Hacker News",
+        "description": "Moonshot 釋出 Kimi K3.1 Pro 權重（huggingface.co/moonshotai/Kimi-K3.1-Pro）；討論串裡有人貼稽核報告，指模型會講出題目沒寫的隱藏評分規則，質疑 benchmaxxing。"
+      }
+    },
+    {
+      "label": "價格戰全面開打",
+      "points": [
+        "微軟一次發布七個新模型，主打規模化性價比",
+        "HN 四百多分、三百多則留言",
+        "留言焦點：連微軟都做到這種水準，天價估值還撐得住嗎"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，微軟一次發布七個新模型，主打規模化的性價比，不是最強。",
+          "show": "微軟一次發布七個新模型，主打規模化性價比，而不是最強。"
+        },
+        {
+          "say": "討論區最熱的一句是：連微軟都做到這種水準了，那些天價估值的公司還撐得住嗎。",
+          "show": "討論區最熱的一句：連微軟都做到這種水準了，那些天價估值還撐得住嗎。"
+        },
+        {
+          "say": "當大家都便宜，選擇的標準就從跑分換成工作流，換成它能不能穩定做完你交代的事。",
+          "show": "當大家都便宜，選擇標準就從跑分換成工作流：能不能穩定做完你交代的事。"
+        }
+      ],
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "link": {
+        "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+        "title": "Seven new models at scalable price-performance",
+        "site": "Microsoft AI",
+        "description": "微軟在 Ignite 2026 一次發布七個新模型，主打規模化性價比；Hacker News 討論四百多分，焦點在「連微軟都做到這種水準，高估值還撐得住嗎」。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "智能變便宜是好事，但分數便宜、驗證不便宜；能放進工作流、真的幫你做完一件事的，才算數。",
+      "show": "智能變便宜是好事，但分數便宜、驗證不便宜；能放進工作流、真的幫你做完一件事的，才算數。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}
