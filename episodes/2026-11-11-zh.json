@@ -1,0 +1,229 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-11",
+ "lang": "zh",
+ "title": "變強也變貴：Fable 5.2 拿回第一的那張帳單",
+ "opening": [
+  {
+   "say": "艾琳電台，十一月十一日星期三，早安，守富。",
+   "show": "艾琳電台 · 11月11日 星期三 · 早安，守富。"
+  },
+  {
+   "say": "今天三件事其實是一條線：模型拿回世界第一，但每一件事變貴了；而它真正在做的事，已經變成幫數學和程式碼做驗證。",
+   "show": "今天的主線：模型拿回世界第一，但每件事變貴了；它真正在做的事，已經變成幫數學與程式碼做驗證。"
+  }
+ ],
+ "news": [
+  {
+   "label": "變便宜，卻更貴",
+   "points": [
+    "Fable 5.2 重新拿回世界第一",
+    "單價降兩成，每任務成本反升三成",
+    "它變勤勞：自己開子代理交叉檢查"
+   ],
+   "lines": [
+    {
+     "say": "第一件，Anthropic 發布 Claude Fable 五點二，重新拿回世界第一。",
+     "show": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，重新拿回世界第一。"
+    },
+    {
+     "say": "但這裡有個反直覺的地方：單價確實降了兩成，可是每完成一個任務的錢反而貴了三成，要八十八美元。",
+     "show": "單價降兩成（輸入 10 → 8 美元、輸出 50 → 40 美元），但每任務成本從 $67.16 升到 $88.15。"
+    },
+    {
+     "say": "原因不是漲價，是它變勤勞了，會自己開子代理、寫上千個測試案例互相檢查。你買的其實是它願意花多少力氣懷疑自己。",
+     "show": "原因不是漲價，是它變勤勞：自己開子代理、寫上千個測試案例交叉驗證。"
+    }
+   ],
+   "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+   "link": {
+    "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+    "title": "Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+    "site": "Latent Space · AI News",
+    "description": "Fable 5.2 重回世界第一；單價降兩成，但 SemiAnalysis 在專業任務基準量到每任務 $88.15，比上一代的 $67.16 更貴。"
+   }
+  },
+  {
+   "label": "一千個代理，三十小時",
+   "points": [
+    "費馬最後定理的 Lean 形式化重做完成",
+    "三十小時，九月那次要十一天",
+    "同一套設定，Opus 5.5 只做到兩成六"
+   ],
+   "lines": [
+    {
+     "say": "第二件，一千個 Fable 五點二的代理，花了三十小時，把費馬最後定理的整份形式化證明重做完。",
+     "show": "1,000 個 Fable 5.2 代理用約 30 小時，重做費馬最後定理的 Lean 形式化證明。"
+    },
+    {
+     "say": "同一套設定下，Opus 五點五跑十八小時只做到兩成六，之後幾乎動不了；而這次用的 token，只有上次的三分之一。",
+     "show": "同設定下 Opus 5.5 十八小時只完成 26%，之後幾乎停滯；這次 token 用量僅上次的三分之一。"
+    },
+    {
+     "say": "要講清楚的是，這不是新證明，是驗證。威爾斯一九九五年就證完了，它們做的是把每一步翻成電腦能檢查的語言。",
+     "show": "這不是新證明，是驗證：Wiles 1995 年已證明，它們做的是把每一步翻成電腦可檢查的語言。"
+    }
+   ],
+   "url": "https://news.ycombinator.com/item?id=50429068",
+   "link": {
+    "url": "https://news.ycombinator.com/item?id=50429068",
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "site": "Hacker News",
+    "description": "發布討論串：1,000 個 Fable 5.2 代理以約 30 小時重做費馬最後定理的 Lean 形式化；Opus 5.5 同設定 18 小時僅 26%。"
+   }
+  },
+  {
+   "label": "發現比修補快",
+   "points": [
+    "Glasswing 七個月三萬八千筆回報",
+    "只有兩成公開、兩百多筆標記修好",
+    "curl 退回三十四份裡的十九份"
+   ],
+   "lines": [
+    {
+     "say": "第三件，有個資安團隊追蹤 Anthropic 的 Glasswing 計畫七個月，收到三萬八千筆漏洞回報。",
+     "show": "VulnCheck 追蹤 Anthropic 的 Glasswing 計畫七個月，收到 37,966 筆漏洞回報。"
+    },
+    {
+     "say": "但只有百分之十九點四公開，兩百一十七筆標記為已修好；curl 專案甚至把三十四份報告退回了十九份。",
+     "show": "僅 19.4% 公開、217 筆標記已修好；curl 把 34 份報告退回 19 份。"
+    },
+    {
+     "say": "問題不是找不到，是維護者修不完。發現的速度，已經跑到修補前面。",
+     "show": "問題不是找不到，是維護者修不完——發現的速度跑在修補前面。"
+    }
+   ],
+   "url": "https://news.ycombinator.com/item?id=50447074",
+   "link": {
+    "url": "https://news.ycombinator.com/item?id=50447074",
+    "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+    "site": "Hacker News",
+    "description": "VulnCheck 追蹤 37,966 筆漏洞回報，只有 19.4% 公開、217 筆標記修好；curl 退回 34 份中的 19 份。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今天就這樣。變強、變貴、也變得更會檢查自己，其實是同一件事的三個面。",
+   "show": "今天就這樣：變強、變貴、更會檢查自己，是同一件事的三個面。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 105.751,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.649,
+   "show": "艾琳電台 · 11月11日 星期三 · 早安，守富。",
+   "part": 0
+  },
+  {
+   "start": 4.949,
+   "end": 15.659,
+   "show": "今天的主線：模型拿回世界第一，但每件事變貴了；它真正在做的事，已經變成幫數學與程式碼做驗證。",
+   "part": 0
+  },
+  {
+   "start": 15.959,
+   "end": 22.072,
+   "show": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，重新拿回世界第一。",
+   "part": 1
+  },
+  {
+   "start": 22.372,
+   "end": 31.175,
+   "show": "單價降兩成（輸入 10 → 8 美元、輸出 50 → 40 美元），但每任務成本從 $67.16 升到 $88.15。",
+   "part": 1
+  },
+  {
+   "start": 31.475,
+   "end": 41.611,
+   "show": "原因不是漲價，是它變勤勞：自己開子代理、寫上千個測試案例交叉驗證。",
+   "part": 1
+  },
+  {
+   "start": 41.911,
+   "end": 51.263,
+   "show": "1,000 個 Fable 5.2 代理用約 30 小時，重做費馬最後定理的 Lean 形式化證明。",
+   "part": 2
+  },
+  {
+   "start": 51.563,
+   "end": 61.463,
+   "show": "同設定下 Opus 5.5 十八小時只完成 26%，之後幾乎停滯；這次 token 用量僅上次的三分之一。",
+   "part": 2
+  },
+  {
+   "start": 61.763,
+   "end": 71.585,
+   "show": "這不是新證明，是驗證：Wiles 1995 年已證明，它們做的是把每一步翻成電腦可檢查的語言。",
+   "part": 2
+  },
+  {
+   "start": 71.885,
+   "end": 80.27,
+   "show": "VulnCheck 追蹤 Anthropic 的 Glasswing 計畫七個月，收到 37,966 筆漏洞回報。",
+   "part": 3
+  },
+  {
+   "start": 80.57,
+   "end": 89.687,
+   "show": "僅 19.4% 公開、217 筆標記已修好；curl 把 34 份報告退回 19 份。",
+   "part": 3
+  },
+  {
+   "start": 89.987,
+   "end": 96.465,
+   "show": "問題不是找不到，是維護者修不完——發現的速度跑在修補前面。",
+   "part": 3
+  },
+  {
+   "start": 96.765,
+   "end": 103.139,
+   "show": "今天就這樣：變強、變貴、更會檢查自己，是同一件事的三個面。",
+   "part": 4
+  },
+  {
+   "start": 103.439,
+   "end": 105.45,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 15.659
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.959,
+   "end": 41.611
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 41.911,
+   "end": 71.585
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 71.885,
+   "end": 96.465
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 96.765,
+   "end": 105.45
+  }
+ ],
+ "made_at": "2026-11-11T09:51:33+08:00"
+}

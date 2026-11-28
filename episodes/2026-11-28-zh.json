@@ -1,0 +1,219 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "zh",
+ "title": "輝達開源語意層，代理終於看懂你的資料庫",
+ "opening": [
+  {
+   "say": "守富，早安，我是艾琳。今天的三件事，其實繞著同一個問題轉。",
+   "show": "守富，早安，我是艾琳。今天的三件事，其實繞著同一個問題轉。"
+  },
+  {
+   "say": "模型越來越聰明，而大家開始補的，是它腳下那層地基：代理到底懂不懂你的世界。",
+   "show": "模型越來越聰明，而大家開始補的，是它腳下那層地基：代理到底懂不懂你的世界。"
+  }
+ ],
+ "news": [
+  {
+   "label": "輝達開源語意層",
+   "points": [
+    "NVIDIA 開源 Auto Ontology（Apache-2.0），從資料庫 metadata 自動建語意知識圖，repo 已破 15,000 星",
+    "把業務概念、合法 join 路徑、指標對應 SQL、同義詞與血緣連起來，代理先取上下文再生成查詢",
+    "以 MCP、CLI、API 三種方式對外，多個代理可共用同一套定義，查詢與執行步驟可回查"
+   ],
+   "lines": [
+    {
+     "say": "第一件事，輝達開源了一個叫 Auto Ontology 的框架，Apache 二點零授權，倉庫已經破一萬五千顆星。",
+     "show": "第一件事，NVIDIA 開源了 Auto Ontology，Apache-2.0 授權，repo 已破 15,000 星。"
+    },
+    {
+     "say": "企業的資料庫幾百張表，模型能寫出語法完美的 SQL，卻算出錯的數字，因為它不懂那些欄位在你們公司代表什麼。",
+     "show": "企業資料庫動輒幾百張表，同一個「營收」有好幾種算法。模型能寫出語法完美的 SQL，卻算出錯的數字，因為它不知道那些欄位在你們公司到底是什麼意思。"
+    },
+    {
+     "say": "它就從中介資料長出一張語意知識圖，把業務概念、關聯路徑、指標對應的查詢連起來，代理先取上下文再動手，步驟留得下來稽核。",
+     "show": "它從資料庫的 metadata 自動長出一張語意知識圖，把業務概念、合法 join 路徑、指標對應的 SQL 全部連起來。代理先取上下文再動手，執行步驟留得下來給人稽核。"
+    }
+   ],
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "link": {
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "title": "NVIDIA/auto-ontology",
+    "site": "GitHub · NVIDIA",
+    "description": "Auto Ontology 是以圖為基礎的語意推理層框架，讓 LLM 與代理在資料庫上做確定性的查詢生成、更好的上下文檢索與更可解釋的推理。"
+   }
+  },
+  {
+   "label": "代理開始自己跑實驗",
+   "points": [
+    "DeepMind 研究副總裁 Koray Kavukcuoglu 在官方 podcast 表示，AI 代理已自行動用部分算力跑下一代 Gemini 實驗",
+    "但他強調距離完整的遞迴自我改進還很遠；訓練時刻意不獎勵代理的內部思考，讓動機在行動前仍可用自然語言審閱",
+    "他也說目前沒有基準能捕捉智慧的核心，AGI 不會始於跑分，而是始於日常產品被信任到能交辦決定"
+   ],
+   "lines": [
+    {
+     "say": "第二件事，DeepMind 的研究副總裁在自家節目上說，AI 代理已經自己動用一部分算力，去跑下一代 Gemini 的實驗。",
+     "show": "第二件事，Google DeepMind 研究副總裁 Koray Kavukcuoglu 在官方 podcast 表示，AI 代理已自行動用部分算力，跑下一代 Gemini 的實驗。"
+    },
+    {
+     "say": "但他說得很清楚，距離真正的遞迴自我改進還很遠。安全做法是：訓練時刻意不獎勵代理的內部思考，讓動機在動手前，仍是用自然語言寫得出來、人看得懂的。",
+     "show": "但他強調距離完整的遞迴自我改進還很遠。安全做法很有意思：訓練時刻意不獎勵代理的內部思考（Chain of Thought），讓意圖在行動前仍以自然語言呈現、可被審閱。"
+    }
+   ],
+   "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+   "link": {
+    "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+    "site": "The Decoder",
+    "description": "DeepMind 研究副總裁 Koray Kavukcuoglu 在官方 podcast 說明代理已自行動用部分算力做下一代 Gemini 實驗，但距遞迴自我改進仍遠，並刻意不獎勵代理的思考串以保持可審。"
+   }
+  },
+  {
+   "label": "讀得到，卻寄不出去",
+   "points": [
+    "Google 要求代理改走官方 Workspace MCP 伺服器，但 Gmail 那個能讀整個信箱、卻沒有寄信功能",
+    "Hacker News 420 分、330 則留言，爭的是權限邊界：交給代理多少才剛好",
+    "熱門留言認為這只會逼大家讓代理去操作瀏覽器寄信，又慢又浪費"
+   ],
+   "lines": [
+    {
+     "say": "第三件事，Google 要代理改走官方的 Workspace MCP，但 Gmail 那一個能讀整個信箱，卻沒有寄信。",
+     "show": "第三件事，Google 要求代理改走官方 Workspace MCP，但 Gmail 那個伺服器能讀整個信箱，卻沒有寄信功能。"
+    },
+    {
+     "say": "Hacker News 上四百多分，大家在爭的其實是權限的邊界：交出去多少，才叫剛剛好。",
+     "show": "Hacker News 上 420 分、330 則留言，爭的其實是權限的邊界：把手交出去多少，才叫剛剛好。"
+    },
+    {
+     "say": "最高票留言很直白：這樣逼，大家只會叫代理開瀏覽器寄信，又慢又浪費。界線畫在哪，最後還是使用者買單。",
+     "show": "最高票留言很直白：這樣逼，大家只會讓代理去操作瀏覽器寄信，又慢又浪費。界線畫在哪，最後還是使用者買單。"
+    }
+   ],
+   "url": "https://news.ycombinator.com/item?id=50653477",
+   "link": {
+    "url": "https://news.ycombinator.com/item?id=50653477",
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "site": "Hacker News",
+    "description": "Google 推動代理改用官方 Workspace MCP，但 Gmail 伺服器缺少寄信能力，引發 420 分、330 則留言對權限邊界與實用性的討論。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "三件事連起來是同一句話：模型不缺聰明，缺的是懂你的世界，還有你願意交出去的那把尺。",
+   "show": "三件事連起來是同一句話：模型不缺聰明，缺的是懂你的世界，還有你願意交出去的那把尺。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 109.082,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.713,
+   "show": "守富，早安，我是艾琳。今天的三件事，其實繞著同一個問題轉。",
+   "part": 0
+  },
+  {
+   "start": 7.013,
+   "end": 13.726,
+   "show": "模型越來越聰明，而大家開始補的，是它腳下那層地基：代理到底懂不懂你的世界。",
+   "part": 0
+  },
+  {
+   "start": 14.026,
+   "end": 23.665,
+   "show": "第一件事，NVIDIA 開源了 Auto Ontology，Apache-2.0 授權，repo 已破 15,000 星。",
+   "part": 1
+  },
+  {
+   "start": 23.965,
+   "end": 34.205,
+   "show": "企業資料庫動輒幾百張表，同一個「營收」有好幾種算法。模型能寫出語法完美的 SQL，卻算出錯的數字，因為它不知道那些欄位在你們公司到底是什麼意思。",
+   "part": 1
+  },
+  {
+   "start": 34.505,
+   "end": 46.077,
+   "show": "它從資料庫的 metadata 自動長出一張語意知識圖，把業務概念、合法 join 路徑、指標對應的 SQL 全部連起來。代理先取上下文再動手，執行步驟留得下來給人稽核。",
+   "part": 1
+  },
+  {
+   "start": 46.377,
+   "end": 55.964,
+   "show": "第二件事，Google DeepMind 研究副總裁 Koray Kavukcuoglu 在官方 podcast 表示，AI 代理已自行動用部分算力，跑下一代 Gemini 的實驗。",
+   "part": 2
+  },
+  {
+   "start": 56.264,
+   "end": 70.919,
+   "show": "但他強調距離完整的遞迴自我改進還很遠。安全做法很有意思：訓練時刻意不獎勵代理的內部思考（Chain of Thought），讓意圖在行動前仍以自然語言呈現、可被審閱。",
+   "part": 2
+  },
+  {
+   "start": 71.219,
+   "end": 79.5,
+   "show": "第三件事，Google 要求代理改走官方 Workspace MCP，但 Gmail 那個伺服器能讀整個信箱，卻沒有寄信功能。",
+   "part": 3
+  },
+  {
+   "start": 79.8,
+   "end": 87.663,
+   "show": "Hacker News 上 420 分、330 則留言，爭的其實是權限的邊界：把手交出去多少，才叫剛剛好。",
+   "part": 3
+  },
+  {
+   "start": 87.963,
+   "end": 98.02,
+   "show": "最高票留言很直白：這樣逼，大家只會讓代理去操作瀏覽器寄信，又慢又浪費。界線畫在哪，最後還是使用者買單。",
+   "part": 3
+  },
+  {
+   "start": 98.32,
+   "end": 106.47,
+   "show": "三件事連起來是同一句話：模型不缺聰明，缺的是懂你的世界，還有你願意交出去的那把尺。",
+   "part": 4
+  },
+  {
+   "start": 106.77,
+   "end": 108.781,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 13.726
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.026,
+   "end": 46.077
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 46.377,
+   "end": 70.919
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 71.219,
+   "end": 98.02
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.32,
+   "end": 108.781
+  }
+ ],
+ "made_at": "2026-11-28T09:48:17+08:00"
+}

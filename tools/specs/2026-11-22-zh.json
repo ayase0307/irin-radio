@@ -1,0 +1,108 @@
+{
+  "title": "Claude 陪數學家證出黎曼猜想，Lean 變成新的評審",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡，陪你把今天的 AI 消息聽完。",
+      "show": "守富，早安。艾琳在這裡，陪你把今天的 AI 消息聽完。"
+    },
+    {
+      "say": "今天的主線：AI 不只寫證明，也開始改自己的權重。",
+      "show": "今天的主線：AI 不只寫證明，也開始改自己的權重。"
+    }
+  ],
+  "news": [
+    {
+      "label": "黎曼猜想 Lean 驗證",
+      "points": [
+        "Anthropic 數學家 Levent Alpöge 與 Claude 合作，交出可機器檢查的黎曼猜想證明，並推廣到廣義黎曼猜想",
+        "證明以 Lean 寫成，據稱相當 25 萬頁、約 1,700 萬行；Hacker News 794 分、635 則留言吵「相信 kernel 算不算相信證明」",
+        "意義：驗證的信任從「同行評審讀懂」換成「機器逐行通過」"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，Anthropic 的數學家阿爾波格說，他和 Claude 一起證出了黎曼猜想；他交出的不是論文，是一份 Lean 程式碼。",
+          "show": "Anthropic 數學家 Levent Alpöge 稱與 Claude 一同證出黎曼猜想，並推廣到廣義黎曼猜想；他交出的不是論文，而是一份 Lean 程式碼。"
+        },
+        {
+          "say": "Lean 會一步一步檢查每個推論，不能跳步、不能說這很明顯；這份證明據稱相當二十五萬頁。",
+          "show": "Lean 逐步檢查每個推論：不能跳步、不能靠「這很明顯」。這份證明據稱等於 25 萬頁、約 1,700 萬行。"
+        },
+        {
+          "say": "所以相信一個證明的理由換了：從同行讀懂，變成機器驗證通過。而最高票的爭論是，如果 Lean 本身有 bug，我們還能相信什麼。",
+          "show": "「相信」的方式換手：從同行評審讀懂，變成機器驗證通過。HN 最高票的爭論是——如果 Lean 本身有 bug，還能相信什麼。"
+        }
+      ],
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "link": {
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "title": "Lean verification of the Riemann Hypothesis",
+        "site": "Lean community blog",
+        "description": "Lean 社群部落格關於黎曼猜想形式化驗證的貼文：以 Lean 逐行檢查的證明，以及「編譯通過」算不算證明成立。"
+      }
+    },
+    {
+      "label": "模型改自己的權重",
+      "points": [
+        "arXiv 論文《Language Models Can Rewrite Their Own Weights》：開源 27B 模型拿到自己的權重、題目與批改結果，自己診斷錯在哪，再直接改權重",
+        "沒有梯度、沒有重新訓練，只跑前向傳遞；沒見過的題目準確率 +6.6 分，連八輪只升不降",
+        "能力隨規模冒出：同系列小模型不是改不動就是改壞自己，只有最大的那一個成功"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，arXiv 論文說，語言模型可以改寫自己的權重：一個兩百七十億參數的開源模型，拿到題目和批改結果，自己診斷錯在哪，直接改。",
+          "show": "arXiv 論文《Language Models Can Rewrite Their Own Weights》：開源 27B 模型取得題目與批改結果，自行診斷錯誤後直接改寫權重。"
+        },
+        {
+          "say": "沒有梯度、沒有重新訓練，只跑前向傳遞；它沒見過的題目，準確率多六點六分，連跑八輪只升不降。",
+          "show": "沒有梯度、沒有重新訓練，只跑前向傳遞。未見題目準確率 +6.6 分，連續八輪只升不降。"
+        },
+        {
+          "say": "它還能把幾乎全錯的自己修回八成；但同系列的小模型，不是改不動，就是把自己改壞。",
+          "show": "它還能把幾乎全錯的損壞複本修回 80% 以上；同系列小模型不是改不動就是改壞自己。"
+        }
+      ],
+      "url": "https://arxiv.org/abs/2611.21885",
+      "link": {
+        "url": "https://arxiv.org/abs/2611.21885",
+        "title": "Language Models Can Rewrite Their Own Weights",
+        "site": "arXiv.org",
+        "description": "論文提出 self-rewriting：27B 開源模型以自己的推理改寫自身權重，無梯度、無重新訓練，未見題目準確率提升 6.6 分，八輪連續上升。"
+      }
+    },
+    {
+      "label": "Inkling 2 Mini 開源",
+      "points": [
+        "Thinking Machines 開源 Inkling 2 Mini：26.4B MoE、迴圈式中間層、1M context，主打小到能跑在筆電上",
+        "Hacker News 1,377 分；社群把 5.4 GB 量化版拿來拆，指 KL 數據贏不過 Unsloth，提醒別只看 README",
+        "釋出 11 分鐘就被無審查化，llama.cpp 支援幾乎同步跟上"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，Thinking Machines 開源 Inkling 2 Mini：兩百六十四億的 MoE，迴圈式中間層，一百萬 context，小到能跑在筆電上。",
+          "show": "Thinking Machines 開源 Inkling 2 Mini：26.4B MoE、迴圈式中間層、1M context，主打小到能跑在筆電上。"
+        },
+        {
+          "say": "它在 Hacker News 衝到一千三百七十七分，但社群把五點四 GB 的量化版拆得很兇，提醒別只看 README。",
+          "show": "Hacker News 1,377 分；社群拆台 5.4 GB 量化版，指 KL 數據不如 Unsloth 的量化，提醒別被 README 騙。"
+        }
+      ],
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "link": {
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "title": "Introducing Inkling 2 Mini",
+        "site": "Thinking Machines Lab",
+        "description": "Inkling 2 Mini 是開放權重、小到能跑在筆電上的模型；以迴圈中間層換取每個 token 的推理量，用更少 token 得到答案。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "三件事是一條線：機器在接管判斷，也在接管自己；能不能被檢查，比能不能寫出來更值錢。",
+      "show": "三件事其實是同一條線：機器在接管判斷，也在接管自己。以後「能不能被檢查」，會比「能不能寫出來」更值錢。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}

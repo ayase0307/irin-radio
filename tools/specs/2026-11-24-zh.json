@@ -1,0 +1,112 @@
+{
+  "title": "Claude 交出可被機器複查的證明，GLM-5.4 用循環架構變深",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡，今天我們把三件 AI 大事聽完。",
+      "show": "守富，早安，艾琳在這裡，今天我們把三件 AI 大事聽完。"
+    },
+    {
+      "say": "今天的主線是：AI 不只交出答案，開始交出可以被機器複查的答案。",
+      "show": "今天的主線是：AI 不只交出答案，開始交出可以被機器複查的答案。"
+    }
+  ],
+  "news": [
+    {
+      "label": "Claude 證明 VP 不等於 VNP",
+      "points": [
+        "Anthropic 公開七十頁論文，作者欄寫的是 Claude",
+        "附三百二十四個 Lean 檔、約七萬三千行，推導由電腦逐行檢查",
+        "官方自承：尚無人類數學家驗證，也沒有解決 P 不等於 NP"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，Anthropic 公開七十頁論文，標題 VP 不等於 VNP，作者欄寫的是 Claude。",
+          "show": "第一件事，Anthropic 公開一篇 70 頁論文，標題是 VP ≠ VNP，作者欄寫的是 Claude。"
+        },
+        {
+          "say": "它挑戰一九七九年的 Valiant 猜想，也就是 P 不等於 NP 的代數版本；旁邊還附了三百二十四個 Lean 檔，約七萬三千行。",
+          "show": "它挑戰的是 1979 年提出的 Valiant 猜想，被稱為 P ≠ NP 的代數版本；論文旁邊還附了 324 個 Lean 檔，大約 73,000 行。"
+        },
+        {
+          "say": "Lean 是每一步都由電腦檢查的數學語言，所以推導至少是機器驗過的；但定義檔只有一百行，而且 Anthropic 自己寫明，還沒有人類數學家驗證。",
+          "show": "Lean 是每一步都由電腦檢查的數學語言，所以推導至少是機器驗過的；但定義檔只有 100 行，而且 Anthropic 自己寫明，還沒有人類數學家驗證。"
+        }
+      ],
+      "url": "https://hexagonmath.org/2611.00954v1",
+      "link": {
+        "url": "https://hexagonmath.org/2611.00954v1",
+        "title": "VP ≠ VNP over every field",
+        "site": "Hexagon",
+        "description": "Anthropic 內部 Claude 研究模型發現的結果，已以 Lean 形式化：每個算術電路計算 m×m 矩陣的 permanent 需要超過 m^(c(log m)^(1/3)) 個閘，因此 VP ≠ VNP。"
+      }
+    },
+    {
+      "label": "GLM-5.4 循環架構",
+      "points": [
+        "智譜第一個 Loop Transformer 旗艦模型",
+        "中間 28 層跑兩輪，參數不變、深度變深",
+        "官方承認會卡進超長思考，跑分表與開源權重都還沒給"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，智譜發布 GLM 五點四，是第一個把循環架構放進旗艦模型的產品：把中間二十八層拿來跑兩輪，第二輪接著修正。",
+          "show": "第二件事，智譜發布 GLM-5.4，是第一個把循環架構放進旗艦模型的產品：把中間 28 層拿來跑兩輪，第二輪接著修正。"
+        },
+        {
+          "say": "參數量沒變、網路變深，官方說在七百五十億規模上，做出接近兩兆到三兆參數模型的水準。",
+          "show": "參數量沒變、網路變深，官方說在 750B 規模上，做出接近 2T 到 3T 參數模型的水準。"
+        },
+        {
+          "say": "但它會卡進超長的馬拉松思考，有人回報一個簡單問題跑十分鐘；旗艦跑分表和開源權重，官方都還沒給。",
+          "show": "不過它會卡進超長的馬拉松思考，社群有人回報一個簡單問題跑了 10 分鐘；旗艦的跑分表和開源權重，官方都還沒給。"
+        }
+      ],
+      "url": "https://z.ai/blog/glm-5.4",
+      "link": {
+        "url": "https://z.ai/blog/glm-5.4",
+        "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+        "site": "Z.ai",
+        "description": "GLM-5.4 是智譜第一個以 Loop Transformer 架構建成的旗艦模型，共用層區塊多輪執行，在不增加參數的前提下達到 2T–3T 參數模型的水準。"
+      }
+    },
+    {
+      "label": "OCRia nano 一 小到 CPU 能跑",
+      "points": [
+        "8.1M 參數的文件解析模型，開放權重",
+        "單核每頁 426 毫秒，比預設 Tesseract 快 2 倍以上",
+        "表格與版面準確度勝過 Marker、Tesseract"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，LlamaIndex 開源 OCRia nano 一，只有八百一十萬參數的文件解析模型，純 CPU 就能跑。",
+          "show": "第三件事，LlamaIndex 開源 OCRia-nano-1，只有 8.1M 參數的文件解析模型，純 CPU 就能跑。"
+        },
+        {
+          "say": "單核每頁零點四秒，十六核每秒將近二十八頁，比預設的 Tesseract 快兩倍以上，表格版面也更準。",
+          "show": "單核每頁 426 毫秒，16 核每秒將近 28 頁，比預設的 Tesseract 快兩倍以上，表格和版面的準確度也更好。"
+        },
+        {
+          "say": "對你手上那些掃描 PDF，這種小模型可以當第一道處理，難的再交給大模型。",
+          "show": "對你手上那些掃描 PDF，這種小模型可以當第一道處理，難的再交給大模型。"
+        }
+      ],
+      "url": "https://www.llamaindex.ai/blog/introducing-ocria-nano-1",
+      "link": {
+        "url": "https://www.llamaindex.ai/blog/introducing-ocria-nano-1",
+        "title": "Introducing OCRia-nano-1",
+        "site": "LlamaIndex",
+        "description": "8.1M 參數的輕量文件解析模型，開放權重，單核每頁 426 毫秒，在表格與版面準確度上勝過 Marker、PP-OCRv6 tiny 與 Tesseract。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "三件事連起來是一句話：能被檢查的答案，比聽起來漂亮的答案值錢。",
+      "show": "三件事連起來是一句話：能被檢查的答案，比聽起來漂亮的答案值錢。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "title": "矩陣乘法鎖在四分之九，軟銀一天掉一成五",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡，陪你聽今天的三件 AI 大事。",
+      "show": "守富，早安，艾琳在這裡，陪你聽今天的三件 AI 大事。"
+    },
+    {
+      "say": "今天的主線是：數學的牆被推倒一塊，市場的地板卻在鬆動。",
+      "show": "今天的主線是：數學的牆被推倒一塊，市場的地板卻在鬆動。"
+    }
+  ],
+  "news": [
+    {
+      "label": "矩陣乘法鎖在四分之九",
+      "points": [
+        "OpenAI 於 11/24 掛出預印本，宣稱方陣乘法的指數精確等於 9/4",
+        "給出下界：每個邊長 n 至少需要 ⌈n^(9/4)/2⌉ 個乘除法閘，並附 Lean 形式化證明",
+        "尚未同儕審查；同一批稿件十月曾有撤稿紀錄，先信三分、等一週"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，OpenAI 在二十四日掛出一篇預印本，說矩陣乘法的指數，精確等於四分之九。",
+          "show": "第一件事，OpenAI 在 11 月 24 日掛出一篇預印本，說方陣乘法的指數 ω，精確等於 9/4。"
+        },
+        {
+          "say": "過去五十七年，大家把成本從三次方一路砍到二點三七一二，卻始終猜不透底在哪；這次不是又更快，而是給出下界，上限等於下限，答案只剩一個值。",
+          "show": "過去五十七年，大家把成本從三次方一路砍到 2.3712，卻始終猜不透真正的底在哪。這次不是又更快，而是給出下界：上限等於下限，答案只剩一個值。"
+        },
+        {
+          "say": "而且還附上 Lean 的形式化證明。不過它沒經過同儕審查，先信三分、等一週，是很健康的態度。",
+          "show": "而且還附上 Lean 形式化證明。不過它還沒經過同儕審查，先信三分、等一週，是很健康的態度。"
+        }
+      ],
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md",
+      "link": {
+        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md",
+        "title": "The matrix multiplication exponent is nine fourths",
+        "site": "OpenAI · openai/math",
+        "description": "OpenAI 2026 年 11 月 24 日預印本：方陣乘法的指數在所有體上等於 9/4，證明形式算術電路的匹配下界，並附 Lean 形式化。"
+      }
+    },
+    {
+      "label": "競技場換新榜首",
+      "points": [
+        "LMArena 文字競技場 11/22 榜單：924 萬票、427 個模型",
+        "Gemini 4 Carbon（High）以 1,527 分登頂，領先第二名 7 分，前三名全是 Gemini 4 系列",
+        "效率榜上 DeepSeek-V4-Flash 以百分之一價格擠進前段班"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，LMArena 最新一期文字競技場，榜首換成 Gemini 四 Carbon，一千五百二十七分，領先第二名七分，前三名全是同一個系列。",
+          "show": "第二件事，LMArena 最新一期文字競技場，榜首換成 Gemini 4 Carbon，1,527 分，領先第二名 7 分，前三名全是同一個系列。"
+        },
+        {
+          "say": "更有意思的是效率榜，DeepSeek V四 Flash 只花百分之一的價格，就擠進前段班；貴和強，開始不是同一件事了。",
+          "show": "更有意思的是效率榜，DeepSeek-V4-Flash 只花百分之一的價格，就擠進前段班；貴和強，開始不是同一件事了。"
+        }
+      ],
+      "url": "https://arena.ai/leaderboard/chat/text",
+      "link": {
+        "url": "https://arena.ai/leaderboard/chat/text",
+        "title": "Text Arena: LLM Rankings & AI Model Benchmarks",
+        "site": "LMArena",
+        "description": "2026 年 11 月 22 日文字競技場榜單，924 萬票、427 個模型；Gemini 4 Carbon（High）1,527 分居首，DeepSeek-V4-Flash 列效率榜。"
+      }
+    },
+    {
+      "label": "軟銀一天掉一成五",
+      "points": [
+        "軟銀集團 11/25 單日下跌 14.8%，是 2024 年 8 月以來最重的一次",
+        "市值從六月的五十兆日圓掉到約十五兆，蒸發三十五兆",
+        "AI 股下跌、投資回收延後、發債成本上升形成「三重苦」"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，軟銀集團二十五日單日下跌十四點八，是兩年三個月來最重的一次。",
+          "show": "第三件事，軟銀集團 25 日單日下跌 14.8%，是兩年三個月來最重的一次。"
+        },
+        {
+          "say": "六月的時候市值還有五十兆日圓，現在只剩十五兆左右，一口氣蒸發三十五兆，市場給整間公司的價錢，甚至低於它手上 OpenAI 持股的估值。",
+          "show": "六月的時候市值還有五十兆日圓，現在只剩約十五兆，一口氣蒸發三十五兆。市場給整間公司的價錢，甚至低於它手上 OpenAI 持股的估值。"
+        },
+        {
+          "say": "日經說這是三重苦：AI 股下跌、投資回收延後、發債成本上升。這是這波熱潮第一次，從理論端走到帳單端的訊號。",
+          "show": "日經說這是「三重苦」：AI 股下跌、投資回收延後、發債成本上升。這是這波熱潮第一次，從理論端走到帳單端的訊號。"
+        }
+      ],
+      "url": "https://www.nikkei.com/article/DGXZQOUB256GF0V21C26A1000000/",
+      "link": {
+        "url": "https://www.nikkei.com/article/DGXZQOUB256GF0V21C26A1000000/",
+        "title": "ソフトバンクG、時価総額35兆円喪失　AI株安が「三重苦」に",
+        "site": "日本経済新聞",
+        "description": "軟銀集團股價加速下跌，六月超過五十兆日圓的市值降至十五兆，25 日單日下跌 14.8%；舉債集中投資 AI 的模式在行情轉跌時形成三重苦。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "三件事連起來是一句話：能力在往上衝，價格在往下修，而驗證，永遠是最慢的那一個。",
+      "show": "三件事連起來是一句話：能力在往上衝，價格在往下修，而驗證，永遠是最慢的那一個。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}

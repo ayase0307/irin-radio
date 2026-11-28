@@ -1,0 +1,232 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-21",
+ "lang": "zh",
+ "title": "AI 自己設計出一顆 CPU：Frostbite 每瓦效能四點五九倍",
+ "opening": [
+  {
+   "say": "守富，早安，艾琳在這裡，陪你一起開機。",
+   "show": "守富，早安。艾琳在這裡，陪你一起開機。"
+  },
+  {
+   "say": "今天的主線是：AI 開始設計硬體，也開始被華爾街秤重量。",
+   "show": "今天的主線：AI 開始設計硬體，也開始被華爾街秤重量。"
+  }
+ ],
+ "news": [
+  {
+   "label": "AI 自己設計 CPU",
+   "points": [
+    "Architect Labs 發表 Frostbite：全新指令集 CPU，從架構、RTL 到 GDS 佈局全由 AI 端到端設計與驗證",
+    "25 組工作負載（15 組直到最終驗收才揭露），每瓦效能是現代人工作業核心的 4.59 倍",
+    "靠互動網（interaction nets）：每個值只有一個擁有者、相依關係全部顯式，硬體不必再猜",
+    "單核效能停滯多年，換掉「相依怎麼表達」可能是另一條階梯"
+   ],
+   "lines": [
+    {
+     "say": "第一件事，Architect Labs 發表一顆叫 Frostbite 的處理器，從指令集到最後的佈局，整條流程都是 AI 自己設計、自己驗證。",
+     "show": "Architect Labs 發表 Frostbite：全新指令集 CPU，從架構、RTL 到 GDS 佈局，全由 AI 端到端設計與驗證。"
+    },
+    {
+     "say": "在二十五組工作負載上，其中十五組到最後驗收才揭露，它的每瓦效能，是先進人工作業核心的四點五九倍。",
+     "show": "25 組工作負載、其中 15 組直到最終驗收才揭露；每瓦效能是先進人工作業核心的 4.59 倍。"
+    },
+    {
+     "say": "關鍵在互動網：相依關係全部攤在陽光下，硬體不必再猜。單核停滯二十多年，這可能是另一條階梯。",
+     "show": "關鍵在互動網（interaction nets）：每個值只有一個擁有者、相依全部顯式，硬體不必再猜。單核停滯多年，這可能是另一條成長階梯。"
+    }
+   ],
+   "url": "https://architectlabs.com/blog/frostbite",
+   "link": {
+    "url": "https://architectlabs.com/blog/frostbite",
+    "title": "Introducing Frostbite: A new CPU architecture discovered, designed, and verified end-to-end by AI",
+    "site": "Architect Labs",
+    "description": "Frostbite 是全新指令集的通用 CPU，整條設計與驗證由 AI 系統完成；在 25 組工作負載（15 組最後才揭露）上，每瓦效能是先進人工作業核心的 4.59 倍。"
+   }
+  },
+  {
+   "label": "史上最大 IPO",
+   "points": [
+    "Anthropic 11/19 那斯達克掛牌，成為第一家公開交易的前沿 AI 公司",
+    "募資約 810 億美元；發行價 83 美元、首日收 97.17，漲約 17%",
+    "盤中熱度退得快，投資人先落袋，指數同步回落",
+    "同日 Claude Fable 5.2 公布解掉兩個懸置二十年的黑洞物理問題"
+   ],
+   "lines": [
+    {
+     "say": "第二件事，Anthropic 十九號在那斯達克掛牌，成為第一家公開交易的前沿 AI 公司。",
+     "show": "Anthropic 11/19 那斯達克掛牌，成為第一家公開交易的前沿 AI 公司。"
+    },
+    {
+     "say": "募資大約八百一十億美元，發行價八十三美元，首日收九十七點一七，比發行價高約一成七。",
+     "show": "募資約 810 億美元；發行價 83 美元，首日收 97.17，漲約 17%。"
+    },
+    {
+     "say": "同一天，Claude Fable 五點二 也公布解掉兩個懸了二十年的黑洞物理問題。",
+     "show": "同日 Claude Fable 5.2 公布解開兩個懸置二十年的黑洞物理問題。"
+    }
+   ],
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "link": {
+    "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom",
+    "site": "Reuters",
+    "description": "Anthropic 那斯達克首日收 97.17 美元、較發行價 83 美元上漲 17%，募資約 810 億美元；早盤熱度隨後消退，成為市場對 AI 行情信心的一次測試。"
+   }
+  },
+  {
+   "label": "榜單換人站",
+   "points": [
+    "Arena 11/18 任務成果指數：Claude Fable 5.2 Max 1,561 分居首，領先第二名 137 分",
+    "Gemini 4 Neon High 1,424 暫列第二",
+    "Artificial Analysis 智慧指數：OpenAI 11/17 的 GPT-6.2 Astra 拿下第二，只輸 Fable 5.2",
+    "GPT-6.2 Astra 價格 $8/$40，比 GPT-6 Astra 便宜 20%；Sol 同分、成本約 15%"
+   ],
+   "lines": [
+    {
+     "say": "第三件事，榜單也換了位置。Arena 十八號的任務成果指數，Claude Fable 五點二 Max 以一千五百六十一分居首，領先第二名一百三十七分。",
+     "show": "Arena 11/18 任務成果指數：Claude Fable 5.2 Max 以 1,561 分居首，領先第二名 137 分；Gemini 4 Neon High 1,424 暫列第二。"
+    },
+    {
+     "say": "Artificial Analysis 的智慧指數，則是 OpenAI 十七號發的 GPT 六點二 Astra 站上第二，只輸給 Fable 五點二。",
+     "show": "Artificial Analysis 智慧指數：OpenAI 11/17 發布的 GPT-6.2 Astra 拿下第二，只落後 Claude Fable 5.2。"
+    },
+    {
+     "say": "它每百萬 token 八塊與四十塊美元，比上一代便宜兩成；同系列的 Sol 分數一樣，成本只要一成五。價格戰已經打到同一分了。",
+     "show": "GPT-6.2 Astra 定價 $8/$40，比 GPT-6 Astra 便宜 20%；同系列 Sol 同分，成本約 15%。價格戰已經打到同一分了。"
+    }
+   ],
+   "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+   "link": {
+    "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+    "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+    "site": "Artificial Analysis",
+    "description": "GPT-6.2 Astra 讓 OpenAI 在智慧指數升上第二，僅次於 Claude Fable 5.2；定價 $8/$40 比 GPT-6 Astra 低 20%，Sol 以約 15% 成本拿到相同分數。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "三件事其實是同一句話：AI 從寫程式，走到設計硬體、做研究，也被推上資本市場秤重量。",
+   "show": "三件事其實是同一句話：AI 從寫程式，走到設計硬體、做研究，也被推上資本市場秤重量。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 109.591,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.518,
+   "show": "守富，早安。艾琳在這裡，陪你一起開機。",
+   "part": 0
+  },
+  {
+   "start": 4.818,
+   "end": 9.886,
+   "show": "今天的主線：AI 開始設計硬體，也開始被華爾街秤重量。",
+   "part": 0
+  },
+  {
+   "start": 10.186,
+   "end": 21.575,
+   "show": "Architect Labs 發表 Frostbite：全新指令集 CPU，從架構、RTL 到 GDS 佈局，全由 AI 端到端設計與驗證。",
+   "part": 1
+  },
+  {
+   "start": 21.875,
+   "end": 31.462,
+   "show": "25 組工作負載、其中 15 組直到最終驗收才揭露；每瓦效能是先進人工作業核心的 4.59 倍。",
+   "part": 1
+  },
+  {
+   "start": 31.762,
+   "end": 41.114,
+   "show": "關鍵在互動網（interaction nets）：每個值只有一個擁有者、相依全部顯式，硬體不必再猜。單核停滯多年，這可能是另一條成長階梯。",
+   "part": 1
+  },
+  {
+   "start": 41.414,
+   "end": 49.616,
+   "show": "Anthropic 11/19 那斯達克掛牌，成為第一家公開交易的前沿 AI 公司。",
+   "part": 2
+  },
+  {
+   "start": 49.916,
+   "end": 58.066,
+   "show": "募資約 810 億美元；發行價 83 美元，首日收 97.17，漲約 17%。",
+   "part": 2
+  },
+  {
+   "start": 58.366,
+   "end": 64.008,
+   "show": "同日 Claude Fable 5.2 公布解開兩個懸置二十年的黑洞物理問題。",
+   "part": 2
+  },
+  {
+   "start": 64.308,
+   "end": 76.768,
+   "show": "Arena 11/18 任務成果指數：Claude Fable 5.2 Max 以 1,561 分居首，領先第二名 137 分；Gemini 4 Neon High 1,424 暫列第二。",
+   "part": 3
+  },
+  {
+   "start": 77.068,
+   "end": 86.707,
+   "show": "Artificial Analysis 智慧指數：OpenAI 11/17 發布的 GPT-6.2 Astra 拿下第二，只落後 Claude Fable 5.2。",
+   "part": 3
+  },
+  {
+   "start": 87.007,
+   "end": 97.926,
+   "show": "GPT-6.2 Astra 定價 $8/$40，比 GPT-6 Astra 便宜 20%；同系列 Sol 同分，成本約 15%。價格戰已經打到同一分了。",
+   "part": 3
+  },
+  {
+   "start": 98.226,
+   "end": 106.977,
+   "show": "三件事其實是同一句話：AI 從寫程式，走到設計硬體、做研究，也被推上資本市場秤重量。",
+   "part": 4
+  },
+  {
+   "start": 107.277,
+   "end": 109.288,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 9.886
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.186,
+   "end": 41.114
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 41.414,
+   "end": 64.008
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 64.308,
+   "end": 97.926
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.226,
+   "end": 109.288
+  }
+ ],
+ "made_at": "2026-11-21T09:47:51+08:00"
+}

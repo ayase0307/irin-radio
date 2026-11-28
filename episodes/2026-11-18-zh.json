@@ -1,0 +1,231 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "zh",
+ "title": "變便宜也變安靜：GPT-6.2 的第二名，與代理的那道門鎖",
+ "opening": [
+  {
+   "say": "守富，早安，艾琳在這裡陪你開機。",
+   "show": "守富，早安。艾琳在這裡陪你開機。"
+  },
+  {
+   "say": "今天的主線是：模型變便宜也變強了，但代價是它開始少講話。",
+   "show": "今天的主線：模型變便宜也變強了，但代價是它開始少講話。"
+  }
+ ],
+ "news": [
+  {
+   "label": "第二名的價格",
+   "points": [
+    "OpenAI 11/17 發布 GPT-6.2 Astra 與 GPT-6.2 Sol",
+    "智慧指數上 Astra 跳 5 分站上第二，僅輸 Claude Fable 5.2",
+    "Astra $8/$40，比 GPT-6 Astra 低 20%；快取輸入 $1.00 → $0.40",
+    "Coding Agent 指數 Astra 持平、Sol 退 3 分；最大思考強度幻覺率 59%／55%"
+   ],
+   "lines": [
+    {
+     "say": "第一件事，OpenAI 十七號推出 GPT 六點二 Astra 和 Sol。在智慧指數上，Astra 跳五分、站上第二名，只輸 Claude Fable 五點二。",
+     "show": "OpenAI 發布 GPT-6.2 Astra 與 GPT-6.2 Sol；Astra 智慧指數跳 5 分、排名第 2，僅次於 Claude Fable 5.2。"
+    },
+    {
+     "say": "價格也鬆了：Astra 輸入八、輸出四十美元，比上一代便宜兩成，快取輸入從一美元砍到零點四。",
+     "show": "Astra 定價 $8/$40，比 GPT-6 Astra 低 20%，快取輸入 $1.00 → $0.40；Sol 維持 $2/$10。"
+    },
+    {
+     "say": "但便宜有一半，是它話變少了：有人實測同一份資料分析題，從二十美元掉到四美元，代價是有些題目它提早收工。",
+     "show": "HN 實測資料分析成本從約 $20 降到 $4，但部分題目提早結束、未找完答案；Coding Agent 指數 Sol 還退 3 分。"
+    }
+   ],
+   "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+   "link": {
+    "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+    "title": "OpenAI's release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index",
+    "site": "Artificial Analysis",
+    "description": "GPT-6.2 Astra 以 $8/$40 定價（比 GPT-6 Astra 低 20%、快取輸入降到 $0.40）攻上智慧指數第 2，僅次於 Claude Fable 5.2；Sol 以 $2/$10 進 2 分，OpenAI 佔下多數 Cost per Task 前緣。"
+   }
+  },
+  {
+   "label": "代理的門鎖",
+   "points": [
+    "HF 11/17 熱議論文 SPILLWAY（49 讚），處理工具型代理的提示注入",
+    "不靠模型判斷，而是分開「目標准入」與「淨化」",
+    "只放行使用者需求或唯讀工具結構化欄位回傳的收件人／帳號",
+    "AgentDojo 測試 12 組全部零攻擊成功，平均可用性 48.9%"
+   ],
+   "lines": [
+    {
+     "say": "第二件事，Hugging Face 上今天最紅的論文之一叫 SPILLWAY，處理的是代理的門鎖。",
+     "show": "Hugging Face 熱議論文 SPILLWAY，處理工具型代理的提示注入攻擊。"
+    },
+    {
+     "say": "它的做法很不一樣：不用模型去猜，而是比對收件人、帳號是不是你原本指定的；只出現在自由文字裡的地址，一律拒絕。",
+     "show": "不靠模型判斷，改為比對收件人與帳號是否符合原指定；只出現在自由文字裡的目標一律拒絕。"
+    },
+    {
+     "say": "作者說在 AgentDojo 測試裡，十二種組合全部零攻擊成功，可用性還有四成九，幾乎不增加模型呼叫。",
+     "show": "AgentDojo 測試 12 種組合全部零攻擊成功，平均可用性 48.9%，幾乎不增加模型呼叫。"
+    }
+   ],
+   "url": "https://huggingface.co/papers/2611.07222",
+   "link": {
+    "url": "https://huggingface.co/papers/2611.07222",
+    "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+    "site": "Hugging Face Papers",
+    "description": "把「目標准入」與「淨化」分開：只有出現在使用者需求、或由唯讀工具以結構化欄位回傳的收件人與帳號才放行，純文字裡出現的目標一律拒絕；AgentDojo 12 組測試零攻擊成功。"
+   }
+  },
+  {
+   "label": "十億的跑速",
+   "points": [
+    "Perplexity 年營收跑速突破 10 億美元，2026 年成長 4 倍",
+    "同日推出 Monitor API，讓企業監看網頁變化",
+    "成立自家研究實驗室 Frontier Research"
+   ],
+   "lines": [
+    {
+     "say": "第三件事，Perplexity 的年營收跑速正式突破十億美元，今年成長四倍。",
+     "show": "Perplexity 年營收跑速突破 10 億美元，2026 年成長 4 倍。"
+    },
+    {
+     "say": "同一天它端出 Monitor API，讓企業盯網頁變化，還成立了自己的研究實驗室 Frontier Research。",
+     "show": "同日推出 Monitor API（監看網頁變化），並成立研究實驗室 Frontier Research。"
+    },
+    {
+     "say": "搜尋引擎長出研究部門，是今天最安靜的一步。",
+     "show": "搜尋引擎長出研究部門，是今天最安靜、也可能最長遠的一步。"
+    }
+   ],
+   "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+   "link": {
+    "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+    "title": "Perplexity hits a $1B revenue run rate, up 4x in 2026",
+    "site": "Latent Space · AI News",
+    "description": "Perplexity 年營收跑速突破 10 億美元、2026 年成長 4 倍；同日推出 Monitor API 並宣布成立研究實驗室 Frontier Research。"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "變強可以靠降價，也可以靠少講話；但代理能動手之後，能不能只做你交代的事，才是真正的分水嶺。",
+   "show": "變強可以靠降價，也可以靠少講話；但代理能動手之後，能不能只做你交代的事，才是真正的分水嶺。"
+  },
+  {
+   "say": "我是艾琳，明天早上見。",
+   "show": "我是艾琳，明天早上見。"
+  }
+ ],
+ "seconds": 98.959,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.414,
+   "show": "守富，早安。艾琳在這裡陪你開機。",
+   "part": 0
+  },
+  {
+   "start": 4.714,
+   "end": 10.957,
+   "show": "今天的主線：模型變便宜也變強了，但代價是它開始少講話。",
+   "part": 0
+  },
+  {
+   "start": 11.257,
+   "end": 22.568,
+   "show": "OpenAI 發布 GPT-6.2 Astra 與 GPT-6.2 Sol；Astra 智慧指數跳 5 分、排名第 2，僅次於 Claude Fable 5.2。",
+   "part": 1
+  },
+  {
+   "start": 22.868,
+   "end": 30.914,
+   "show": "Astra 定價 $8/$40，比 GPT-6 Astra 低 20%，快取輸入 $1.00 → $0.40；Sol 維持 $2/$10。",
+   "part": 1
+  },
+  {
+   "start": 31.214,
+   "end": 41.297,
+   "show": "HN 實測資料分析成本從約 $20 降到 $4，但部分題目提早結束、未找完答案；Coding Agent 指數 Sol 還退 3 分。",
+   "part": 1
+  },
+  {
+   "start": 41.597,
+   "end": 48.572,
+   "show": "Hugging Face 熱議論文 SPILLWAY，處理工具型代理的提示注入攻擊。",
+   "part": 2
+  },
+  {
+   "start": 48.872,
+   "end": 59.582,
+   "show": "不靠模型判斷，改為比對收件人與帳號是否符合原指定；只出現在自由文字裡的目標一律拒絕。",
+   "part": 2
+  },
+  {
+   "start": 59.882,
+   "end": 68.633,
+   "show": "AgentDojo 測試 12 種組合全部零攻擊成功，平均可用性 48.9%，幾乎不增加模型呼叫。",
+   "part": 2
+  },
+  {
+   "start": 68.933,
+   "end": 75.646,
+   "show": "Perplexity 年營收跑速突破 10 億美元，2026 年成長 4 倍。",
+   "part": 3
+  },
+  {
+   "start": 75.946,
+   "end": 83.626,
+   "show": "同日推出 Monitor API（監看網頁變化），並成立研究實驗室 Frontier Research。",
+   "part": 3
+  },
+  {
+   "start": 83.926,
+   "end": 87.897,
+   "show": "搜尋引擎長出研究部門，是今天最安靜、也可能最長遠的一步。",
+   "part": 3
+  },
+  {
+   "start": 88.197,
+   "end": 96.347,
+   "show": "變強可以靠降價，也可以靠少講話；但代理能動手之後，能不能只做你交代的事，才是真正的分水嶺。",
+   "part": 4
+  },
+  {
+   "start": 96.647,
+   "end": 98.658,
+   "show": "我是艾琳，明天早上見。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.0,
+   "end": 10.957
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.257,
+   "end": 41.297
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 41.597,
+   "end": 68.633
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 68.933,
+   "end": 87.897
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 88.197,
+   "end": 98.658
+  }
+ ],
+ "made_at": "2026-11-18T09:47:22+08:00"
+}

@@ -1,0 +1,112 @@
+{
+  "title": "OpenAI 公開預訓練曲線訂共同上限，黃仁勳十一天後回鍋",
+  "opening": [
+    {
+      "say": "守富，早安，艾琳在這裡，陪你聽今天的三件 AI 大事。",
+      "show": "守富，早安，艾琳在這裡，陪你聽今天的三件 AI 大事。"
+    },
+    {
+      "say": "今天的主線是：AI 一邊在替自己訂上限，一邊把自己塞進你的口袋。",
+      "show": "今天的主線是：AI 一邊在替自己訂上限，一邊把自己塞進你的口袋。"
+    }
+  ],
+  "news": [
+    {
+      "label": "OpenAI 公開預訓練曲線",
+      "points": [
+        "首席科學家 Pachocki 公開五年來基礎模型的對數困惑度曲線",
+        "GPT-3.5 約 0.99、GPT-4 約 0.91，掉到 0.8 以下開始冒出資安與數學能力",
+        "提案各實驗室共同訂開發上限，微軟以 MAI-2 Base 的 0.819 第一個簽字"
+      ],
+      "lines": [
+        {
+          "say": "第一件事，OpenAI 首席科學家帕霍茨基公開了五年來的預訓練困惑度曲線，等於把自家的進度表攤在桌上。",
+          "show": "第一件事，OpenAI 首席科學家 Jakub Pachocki 公開五年來的預訓練困惑度曲線，等於把自家的進度表攤在桌上。"
+        },
+        {
+          "say": "GPT三點五大約零點九九，GPT四降到零點九一，掉到零點八以下之後，資安和數學這類能力就自己冒出來；他預測下一個跳躍在零點六八到零點七之間。",
+          "show": "GPT-3.5 大約 0.99，GPT-4 降到 0.91，掉到 0.8 以下之後，資安和數學這類能力就自己冒出來；他預測下一個跳躍會落在 0.68 到 0.7 之間。"
+        },
+        {
+          "say": "他還提案，各家共同訂一個不跨越的開發上限。微軟已經第一個簽字，用同一份評測跑出零點八一九。",
+          "show": "他還提案，各家共同訂一個不跨越的開發上限，除非監控 AI 的能力達到某個里程碑。微軟已經第一個簽字，用同一份評測跑出 0.819。"
+        }
+      ],
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "link": {
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "title": "Perplexity and Intelligence",
+        "site": "OpenAI",
+        "description": "首席科學家 Jakub Pachocki 公開 OpenAI 自 GPT-3.5 以來的基礎模型對數困惑度曲線，並提案以困惑度等指標建立跨實驗室的共同開發上限。"
+      }
+    },
+    {
+      "label": "27B 塞進 5.9GB",
+      "points": [
+        "PrismML 發布 Ternary Bonsai 2.5 27B，維持 5.9GB 佔用、Apache 2.0 開放權重",
+        "SWE-bench Verified 從上一代 60.8 升到 75.6，完整精度版是 80.6",
+        "RTX 4090 上每秒 204 個 token，llama.cpp 與 MLX 都能跑"
+      ],
+      "lines": [
+        {
+          "say": "第二件事，PrismML 發布三元版的 Bonsai 二點五，二十七B 等級的模型只佔五點九GB，權重公開可下載。",
+          "show": "第二件事，PrismML 發布 Ternary Bonsai 2.5 27B，二十七B 等級的模型只佔 5.9GB，Apache 2.0 開放權重，可以直接下載。"
+        },
+        {
+          "say": "它把每個權重壓成負一、零、正一三種值，寫程式的跑分從上一代的六十點八跳到七十五點六，只比完整精度版低五分。",
+          "show": "它把每個權重壓成 -1、0、+1 三種值，寫程式的跑分從上一代的 60.8 跳到 75.6，只比完整精度版低五分。"
+        },
+        {
+          "say": "一張四零九零顯卡每秒跑兩百零四個 token，意思是，一個會用工具的代理，真的可以住進你自己的電腦。",
+          "show": "一張 RTX 4090 每秒跑 204 個 token，意思是，一個會用工具的代理，真的可以住進你自己的電腦。"
+        }
+      ],
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "link": {
+        "url": "https://prismml.com/news/bonsai-2-5-27b",
+        "title": "Introducing Ternary Bonsai 2.5 27B: Powering Agentic Coding and Private Knowledge Work",
+        "site": "PrismML",
+        "description": "以 Qwen3.8 27B 為底的三元權重模型，維持 5.9GB 體積，強化多輪工具使用與代理寫程式，SWE-bench Verified 75.6，Apache 2.0 釋出。"
+      }
+    },
+    {
+      "label": "黃仁勳十一天後回鍋",
+      "points": [
+        "辭職十一天後，輝達董事會一致決議請黃仁勳回任執行長、總裁與董事",
+        "董事會週日再與他會談，並收到美國政府高層意見；獨立董事調查仍在進行",
+        "八天後參議院聽證照舊，輝達另設國家安全與出口管制委員會"
+      ],
+      "lines": [
+        {
+          "say": "第三件事，輝達董事會在黃仁勳辭職十一天後，一致投票請他回來當執行長、總裁兼董事。",
+          "show": "第三件事，輝達董事會在黃仁勳辭職十一天後，一致投票請他回來當執行長、總裁兼董事。"
+        },
+        {
+          "say": "董事會週日又和他開了幾次會，也收到美國政府高層意見；獨立董事調查還在跑，八天後參議院聽證照舊。",
+          "show": "董事會週日又和他開了幾次會，也收到美國政府高層的意見；獨立董事的調查還在跑，八天後的參議院聽證照舊。"
+        },
+        {
+          "say": "十一天就翻盤，重點不在人事，而在算力這件事，已經徹底跟政府綁在一起了。",
+          "show": "十一天就翻盤，重點不在人事，而在算力這件事，已經徹底跟政府綁在一起了。"
+        }
+      ],
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "link": {
+        "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+        "title": "Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+        "site": "Latent Space · AI News",
+        "description": "黃仁勳在宣布辭職十一天後被輝達董事會一致決議回任總裁、執行長與董事；同一期並收錄 OpenAI 公開預訓練損失曲線與微軟加入共同上限提案。"
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "三件事連起來是一句話：能力越強，規矩要越早談；模型越小，越有機會真的被你用上。",
+      "show": "三件事連起來是一句話：能力越強，規矩要越早談；模型越小，越有機會真的被你用上。"
+    },
+    {
+      "say": "我是艾琳，明天早上見。",
+      "show": "我是艾琳，明天早上見。"
+    }
+  ]
+}
